@@ -145,7 +145,6 @@ main {
 }
 
 
-
 .container {
   display: flex;
   flex-direction: row;
@@ -741,28 +740,35 @@ div.button02:hover {
   text-align: left;
 }
 
-.image-container3 {
-  display: flex;
-  width: 100%;
+.image-container3::after {
+  display: table;
+  content: "";
+  clear: both;
 }
 
-.image-container4 {
-  display: flex;
-  margin-top: -25px;
+.image-container4::after {
+  display: table;
+  content: "";
+  clear: both;
 }
 
 .column {
-  flex: 33.33%;
+  float: left;
+  width: 33.3%;
+  max-width: 100%;
+}
+
+.columnn {
+  float: left;
+  width: 33.3%;
 }
 
 
-.image-container3 img {
-  max-width: 104%;
+.img19, .img20, .img21, .img22, .img23, .img24, .img25 {
+  max-width: 100%;
 }
 
-.image-container4 img{
-  max-width: 105.5%;
-}
+
 
 .button04 {
   width: 140px;
@@ -917,7 +923,7 @@ footer {
   font-family: Mulish;
   font-size: 16px;
   font-weight: 300;
-  width: 95%;
+  width: 70%;
   margin-bottom: 20px;
 }
 

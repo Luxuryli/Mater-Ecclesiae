@@ -1,0 +1,994 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color:white;
+}
+
+;:root {
+  font-family: Sinhala MN;
+  font-family: Mulish;
+  font-family: Montserrat;
+  font-family: Avenir;
+}
+
+@font-face {
+  font-family:  Sinhala MN;
+  src: url( Sinhala MN.ttf) format('ttf');
+
+  font-family:  Mulish;
+  src: url( Mulish.ttf) format('ttf');
+
+  font-family:  Montserrat;
+  src: url( Montserrat.ttf) format('ttf');
+
+  font-family:  Avenir;
+  src: url( Avenir.otf) format('otf');
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #f2f5ff;
+  padding: 10px 100px 10px 100px;
+  position: fixed;
+  z-index: +2;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-nav {
+  width: 100%;
+}
+
+.logo {
+  width: 150px;
+  display: flex;
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+.nav0 {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav1, .nav2, .nav3, .nav4,.nav5, .nav6 {
+ margin: 15px 18px 15px 18px;
+ color: #042482;
+ font-family: Mulish;
+ font-size: 12px;
+ font-weight: 500;
+
+}
+
+.nav01 {
+  width: 70px;
+  height: 25px;
+  background-color: #042482;
+  border-radius: 50px;
+  padding: 5px 5px 5px 5px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.bold {
+  width: 15px;
+}
+
+.nav7 {
+  color: white;
+  font-family: Mulish;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+main {
+  width: 100%;
+}
+
+.sidebar {
+  width: 50px;
+  height: 280px;
+  background-color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 200px;
+  right: 0%;
+  z-index: 1;
+}
+
+.search {
+  width: 15px;
+  margin: 15px 5px 15px 5px;
+}
+
+.enquire {
+  color: #042482;
+  font-family: Montserrat;
+  font-size: 12px;
+  transform: rotate(90deg);
+  margin: 20px 10px 0px 5px;
+}
+
+.apply {
+  color: #042482;
+  font-family: Montserrat;
+  font-size: 12px;
+  transform: rotate(90deg);
+  margin: 60px 10px 0px  5px;
+}
+
+.visit {
+  color: #042482;
+  font-family: Montserrat;
+  font-size: 12px;
+  transform: rotate(90deg);
+  margin: 50px 10px 0px 5px;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 90px 100px 200px 100px;
+  background-image: url(img/Rectangle\ 10051.svg), url(img/Rectangle\ 10050.svg);
+  background-position: right, left;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 2000px, 750px;
+  background-position-y: 130px, 600px; 
+  background-position-x: 800px, left;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 200px 0px 0px auto;
+}
+
+.word {
+  line-height: 50px;
+  font-size: 32px;
+  font-weight: 100;
+  color: #191919;
+  font-family:  Sinhala MN;
+  width: 80%;
+}
+
+
+.word01 {
+  line-height: 30px;
+  font-size: 16px;
+  color: #191919;
+  font-family: Mulish;
+  width: 80%;
+  margin: 10px 0px 10px 30px
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #042482;
+  font-size: 16px;
+  font-family:  Mulish;
+  padding: 8px 17px 8px 17px;
+  color: #042482;
+  margin: 20px 0px 10px 0px
+}
+
+div.button:hover {
+  background-color: #042482;
+  color: white;
+
+}
+
+
+.scroller {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+
+.arrow {
+  width: 50px;
+  display: flex;
+  margin-right: 30px;
+}
+
+.circles {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.circle1 {
+  width: 50px;
+  height: 10px;
+  background-color: #042482;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.circle2 {
+  width: 10px;
+  height: 10px;
+  border-color: #042482;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50px;
+  margin-right: 5px;
+
+}
+
+.circle3 {
+  width: 10px;
+  height: 10px;
+  border-color: #042482;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50px;
+  margin-right: 5px;
+
+}
+
+.circle4 {
+  width: 10px;
+  height: 10px;
+  border-color: #042482;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.arrow1 {
+  width: 50px;
+  margin-left: 30px;
+  display: flex;
+}
+
+.right-container {
+  width: 100%;
+  display: flex;
+  margin: auto;
+
+}
+
+
+.img03 {
+  width: 1000px;
+  display: flex;
+}
+
+
+
+.container01 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0px 100px 0px 100px;
+  background-image: url(img/Path\ 4695.svg);
+  background-repeat: no-repeat;
+  background-position-x: -450px;
+  background-position-y: 300px;
+  background-size: 900px;
+  
+}
+
+.left-container1 {
+  width: 100%;
+  margin: 200px 0px 0px 200px;
+}
+
+
+.img05  {
+  width: 600px;
+  display: flex;
+}
+
+.right-container1 {
+  width: 100%;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  margin: 300px 0px 0px 100px;
+}
+
+
+.word02 {
+  line-height: 50px;
+  font-size: 32px;
+  font-weight: 100;
+  color: #191919;
+  font-family:  Sinhala MN;
+  width: 80%;
+}
+
+
+.word03 {
+  line-height: 30px;
+  font-size: 16px;
+  color: #191919;
+  font-family: Mulish;
+  width: 80%;
+  margin: 10px 0px 10px 30px;
+  margin-bottom: 20px;
+}
+
+
+.button01 {
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #042482;
+  font-size: 16px;
+  font-family:  Mulish;
+  padding: 8px 17px 8px 17px;
+  color: #042482;
+}
+
+div.button01:hover {
+  background-color: #042482;
+  color: white;
+}
+
+
+
+.container02 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 90px 0px 0px 100px;
+  background-image: url(img/Path\ 4695.svg) ,url(img/Rectangle\ 10055.svg);
+  background-repeat: no-repeat ,no-repeat;
+  background-position: -470px, right;
+  background-size: 900px, 800px;
+  background-position-y: -400px ,250px;
+}
+
+.left-container2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 160px 0px 0px auto;
+}
+
+.mission {
+  font-family: Mulish;
+  font-size: 14px;
+  color: #042482;
+  letter-spacing: 5px;
+  margin-top: 5px;
+}
+
+.mission01 {
+  font-family: Sinhala Mn;
+  font-size: 32px;
+  color: #191919;
+  line-height: 45px;
+  width: 90%;
+  margin-top: 50px;
+}
+
+.mission02 {
+  font-family: Mulish;
+  font-size: 14px;
+  color: #191919;
+  line-height: 25px;
+  width: 90%;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.button02 {
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #042482;
+  font-size: 16px;
+  font-family:  Mulish;
+  padding: 8px 17px 8px 17px;
+  color: #042482;
+  margin-top: 30px;
+}
+
+div.button02:hover {
+  background-color: #042482;
+  color: white;
+}
+
+
+.right-container2 {
+  width: 6000px;
+  margin-top: 200px;
+  overflow: auto;
+  white-space: nowrap;
+  position: relative;
+  left: 150px;
+}
+
+.scrollerrr {
+  display: flex;
+}
+
+
+.boxsc1, .boxsc2, .boxsc3, .boxsc4, .boxsc5, .boxsc6 {
+  color:#191919;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+  font-family:  Sinhala Mn;
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  position: relative;
+  left: 8%;
+  bottom: 15%;
+}
+
+.img07, .img08, .img09, .img10, .img11, .img12 {
+  border-radius: 10px;
+  padding: 10px;
+  width: 420px;
+}
+
+.arrow-container {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  position: relative;
+  right: 20%;
+  top: 310px;
+}
+
+.container03 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 90px 100px 0px 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-container {
+  width: 100%;
+  text-align: center;
+}
+
+.news {
+  color: #042482;
+  font-size: 14px;
+  font-family: Montserrat;
+  word-spacing: 5px;
+  letter-spacing: 1.5px;
+  margin-bottom: 5px;
+}
+
+.news1 {
+  color: #191919;
+  font-size: 24px;
+  font-family: Sinhala Mn;
+  font-weight: 200;
+  word-spacing: 5px;
+  letter-spacing: 1.5px;
+  margin-bottom: 25px;
+}
+
+.news2 {
+  color: #191919;
+  font-size: 12px;
+  font-family: Montserrat;
+}
+
+.bottom-container {
+  width: 1500px;
+  margin-top: 50px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.sliderrr {
+  display: flex;
+}
+
+.boxsc7, .boxsc8, .boxsc9, .boxsc10 {
+  color:#191919;
+  padding: 10px;
+  font-size: 14px;
+  background-color: white;
+  font-family:  Sinhala Mn;
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  position: relative;
+  left: 5%;
+  bottom: 30%;
+}
+
+.event {
+  color: #191919;
+  font-family: Montserrat;
+  font-size: 14px;
+  position: relative;
+  left: 8%;
+  bottom: 70%;
+  background-color: white;
+  width: 70px;
+  height: 30px;
+  padding: 5px 5px 5px 10px;
+  border-radius: 5px;
+}
+
+.date {
+  color: #191919;
+  font-family: Montserrat;
+  font-size: 12px;
+  position: relative;
+  left: 8%;
+  bottom: 35%;
+}
+
+.read-more {
+  color: #191919;
+  text-decoration: underline;
+  font-family: Montserrat;
+  font-size: 12px;
+  position: relative;
+  left: 70%;
+  bottom: 39%;
+}
+
+.img13, .img14, .img15, .img16 {
+  border-radius: 10px;
+  padding: 10px;
+  width: 420px;
+}
+
+.arrow-container1 {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  position: relative;
+  bottom: 100px;
+}
+
+.button03 {
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #042482;
+  font-size: 16px;
+  font-family:  Mulish;
+  padding: 8px 17px 8px 17px;
+  color: #042482;
+  text-align: center;
+}
+
+.button03:hover {
+  color: white;
+  background-color: #042482;
+}
+
+.container04 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 200px 0px 0px 0px;
+  background-image: url(img/Path\ 4696\ 2.svg);
+  background-size: 600px;
+  background-repeat:no-repeat;
+  background-position: 1300px;
+}
+
+.left-container3 {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.appostrophe {
+  width: 50px;
+  margin: 15px 0px 20px 0px;
+}
+
+.voice {
+  color: #042482;
+  font-family: Montserrat;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about {
+  color: #191919;
+  font-family: Sinhala Mn;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+.impressive {
+  color: #191919;
+  font-family: Montserrat;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  width: 60%;
+  text-align: center;
+}
+
+.impressive1 {
+  color: #191919;
+  font-family: Montserrat;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  width: 63%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.name {
+  color: #191919;
+  font-family: Sinhala Mn;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  width: 70%;
+  text-align: center;
+  word-spacing: 3px;
+}
+
+.arrow-container2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.right-container3 {
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+}
+
+.image-container2 {
+  display: flex;
+  position: absolute;
+}
+
+.img17 {
+  width: 550px;
+  display: flex;
+}
+
+.img18 {
+  width: 450px;
+  display: flex;
+  position: absolute;
+  right: 10%;
+  top: 4%;
+}
+
+
+
+.container05 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 200px 100px 200px 100px;
+  background-image: url(img/Path\ 4695.svg);
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position-y: 600px;
+  background-position-x: -400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.word04 {
+  margin-bottom: 30px;
+  align-self: flex-start;
+  justify-self: left;
+}
+
+.explore {
+  color: #042482;
+  font-family: Montserrat;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.explore1 {
+  color: #191919;
+  font-family: Sinhala Mn;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  text-align: left;
+}
+
+.image-container3 {
+  display: flex;
+  width: 100%;
+}
+
+.image-container4 {
+  display: flex;
+  margin-top: -25px;
+}
+
+.column {
+  flex: 33.33%;
+}
+
+
+.image-container3 img {
+  max-width: 104%;
+}
+
+.image-container4 img{
+  max-width: 105.5%;
+}
+
+.button04 {
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #042482;
+  font-size: 16px;
+  font-family:  Mulish;
+  padding: 8px 17px 8px 17px;
+  color: #042482;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.button04:hover {
+  color: white;
+  background-color: #042482;
+}
+
+.word05 {
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.explore2 {
+  color: #042482;
+  font-family: Montserrat;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.explore3 {
+  color: #191919;
+  font-family: Sinhala Mn;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+}
+
+.image-container5 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.enquire1, .enquire3, .enquire4 {
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-color:#042482;
+  border-bottom-width: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  height: 360px;
+  color: #191919;
+}
+
+
+.enquire1:hover, .enquire3:hover, .enquire4:hover {
+  top: 100px;
+  height: 360px;
+  background-color: #042482;
+  color: white;
+  transition: all .5s ease-in-out;
+  border-bottom-color:#042482;
+  border-bottom-width: 10px;
+  border-radius: 10px;
+}
+
+.image-container5 img {
+  width: 450px;
+}
+
+.enquire2 {
+  text-align: center;
+  font-family: Sinhala Mn;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  padding: 10px;
+}
+
+footer {
+  background-color: #f2f5ff;
+  width: 100%;
+  padding: 80px 100px 30px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-container1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 7%;
+}
+
+.materr {
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+}
+
+.logo1 {
+  width: 150px;
+}
+
+.college {
+  color: #042482;
+  font-family: Mulish;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 350;
+  margin-top: 30px;
+  line-height: 25px;
+}
+
+.get {
+  display: flex;
+  flex-direction: column;
+}
+
+.in {
+  color: #042482;
+  font-family: Sinhala Mn;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.phone {
+  color: #042482;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+
+}
+
+.email {
+  color: #042482;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+
+}
+
+.address {
+  color: #042482;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 300;
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.junior, .senior, .enquire5, .apply1 {
+  color: #042482;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+
+.Useful {
+  display: flex;
+  flex-direction: column;
+}
+
+.share {
+  color: #042482;
+  font-family: Sinhala Mn;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+
+.Connect img {
+  width: 35px;
+}
+
+.powered {
+  display: flex;
+  flex-direction: column;
+}
+
+.powered img {
+  width: 150px;
+}
+
+.top {
+  color: #042482;
+  font-family: Mulish;
+  font-size: 16px;
+  margin: 50px 0px 10px 0px;
+  text-align: right;
+}
+
+hr {
+  color: #042482;
+  opacity: 0.4;
+}
+
+.bottom-container1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 70%;
+}
+
+.car {
+  color: #042482;
+  font-family: Mulish;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.privacy {
+  color: #042482;
+  font-family: Mulish;
+  font-size: 14px;
+  font-weight: 300;
+  
+}

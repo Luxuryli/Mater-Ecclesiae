@@ -5621,7 +5621,7 @@ hr {
   }
   
   .left-nav {
-    width: 40%;
+    width: 100%;
   }
   
   .logo {
@@ -5633,6 +5633,7 @@ hr {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-left: 100px;
   }
   
   
@@ -5641,12 +5642,16 @@ hr {
     flex-direction: row;
   }
   
-  .nav1, .nav2, .nav3, .nav4,.nav5, .nav6 {
-   margin: 15px 8px 15px 8px;
+  .nav1, .nav2, .nav5 {
+   margin: 15px 15px 15px 15px;
    color: #042482;
    font-family: Mulish;
    font-size: 10px;
    font-weight: 500;
+  }
+
+  .nav3, .nav4, .nav6 {
+    display: none;
   }
   
   .nav01 {
@@ -6688,14 +6693,12 @@ hr {
     display: flex;
     flex-direction: row;
     width: 100%;
-    float: right;
-    position: relative;
+    margin-left: 70px;
   }
   
   
   .nav0 {
     display: none;
-  
   }
   
   .nav1, .nav2, .nav3, .nav4,.nav5, .nav6 {
@@ -6776,7 +6779,7 @@ hr {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 90px 0px 40px 0px;
+    padding: 90px 50px 40px 50px;
     align-content: center;
     justify-content: center;
   }
@@ -6848,6 +6851,7 @@ hr {
   .img03 {
     width: 300px;
     display: flex;
+    margin-top: 20px;
   }
   
   
@@ -6861,20 +6865,21 @@ hr {
     background-position-x: -450px;
     background-position-y: 50px;
     background-size: 670px;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-    justify-content: center;
+    padding: 90px 50px 90px 50px;
   }
   
   .left-container1 {
     width: 100%;
+    align-content: center;
+    justify-content: center;
+    margin: 0px;
   }
   
   
   .img05  {
-    width: 300px;
+    width: 100%;
     display: flex;
+    margin-bottom: 20px;
   }
   
   .right-container1 {
@@ -6886,6 +6891,7 @@ hr {
     align-items: center;
     justify-items: center;
     padding: 0px;
+    margin: 0px;
   }
   
   
@@ -6940,19 +6946,18 @@ hr {
     background-image: url(img/Rectangle\ 10055.svg);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 350px;
-    background-position-y: 200px;
+    background-size: 500px;
+    background-position-y: 240px;
     align-items: center;
     justify-items: center;
-    align-content: center;
-    justify-content: center;
+    margin-top: 50px;
   }
   
   .left-container2 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 160px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     align-items: center;
     justify-items: center;
     align-content: center;
@@ -6973,7 +6978,7 @@ hr {
     font-size: 24px;
     color: #191919;
     line-height: 30px;
-    width: 100%;
+    width: 85%;
     margin-top: 25px;
     text-align: center;
 
@@ -7000,7 +7005,7 @@ hr {
     font-family:  Mulish;
     padding: 8px 15px 8px 15px;
     color: #042482;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   
   div.button02:hover {
@@ -7010,12 +7015,12 @@ hr {
   
   
   .right-container2 {
-    width: 400px;
+    width: 300px;
     overflow: auto;
     white-space: nowrap;
     position: relative;
     scrollbar-width: none;
-    margin: 0px 200px 0px 0px;
+    margin: 10px 200px 0px 0px;
   }
   
   .scrollerrr {
@@ -7027,11 +7032,11 @@ hr {
     color:#191919;
     text-align: center;
     padding: 10px;
-    font-size: 16px;
+    font-size: 13px;
     background-color: white;
     font-family:  Sinhala Mn;
     width: 200px;
-    height: 40px;
+    height: 35px;
     border-radius: 5px;
     position: relative;
     left: 8%;
@@ -7047,10 +7052,12 @@ hr {
   .arrow-container {
     display: flex;
     flex-direction: row;
-    position: relative;
-    top: 20px;
-    margin: 0px;
+    right: 0%;
+    top: 0%;
   }
+
+
+
   
   .container03 {
     display: flex;
@@ -7064,6 +7071,7 @@ hr {
   .top-container {
     width: 100%;
     text-align: center;
+    margin: 0px;
   }
   
   .news {
@@ -7203,6 +7211,7 @@ hr {
     align-items: center;
     width: 100%;
     margin-top: 70px;
+    margin-left: 0px;
   }
   
   .appostrophe {
@@ -7257,30 +7266,33 @@ hr {
   }
   
   .arrow-container2 {
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+    display: none;
   }
   
   .right-container3 {
     display: flex;
     flex-direction: column; 
     width: 100%;
-    margin-top: 70px;
+    margin-top: 150px;
+    margin-left: 0px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
   }
   
   .image-container2 {
     display: flex;
-    position: absolute;
+    margin-left: 0px;
   }
   
   .img17 {
-    width: 350px;
+    width: 250px;
     display: flex;
   }
   
   .img18 {
-    width: 300px;
+    width: 200px;
     display: flex;
     position: absolute;
     right: 10%;
@@ -7293,7 +7305,7 @@ hr {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 200px 50px 200px 50px;
+    padding: 100px 50px 100px 50px;
     background-image: url(img/Path\ 4695.svg);
     background-repeat: no-repeat;
     background-size: 800px;

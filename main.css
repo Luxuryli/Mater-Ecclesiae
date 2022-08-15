@@ -432,6 +432,7 @@ div.button02:hover {
   white-space: nowrap;
   position: relative;
   left: 150px;
+  scrollbar-width: none;
 }
 
 .scrollerrr {
@@ -513,6 +514,7 @@ div.button02:hover {
   margin-top: 50px;
   overflow: auto;
   white-space: nowrap;
+  scrollbar-width: none;
 }
 
 .sliderrr {
@@ -740,31 +742,149 @@ div.button02:hover {
   text-align: left;
 }
 
-.image-container3::after {
-  display: table;
-  content: "";
-  clear: both;
+.image-container3  {
+  width: 100%;
+  display: flex;
 }
 
-.image-container4::after {
-  display: table;
-  content: "";
-  clear: both;
+.image-container3-img, .image-container4-img {
+  position: relative;
 }
 
-.column {
-  float: left;
-  width: 33.3%;
+.img19 {
+  display: block;
+  width: 103%;
+  height: 22rem;
+  aspect-ratio: auto;
+  border-top-left-radius: 5px;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms ease-in-out;
 }
 
-.columnn {
-  float: left;
-  width: 25%;
+.img20 {
+  display: block;
+  width: 102%;
+  height: 22rem;
+  aspect-ratio: auto;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms ease-in-out;
+}
+
+.img21 {
+  display: block;
+  width: 97.5%;
+  height: 22rem;
+  aspect-ratio: auto;
+  border-top-left-radius: 5px;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms ease-in-out;
+}
+
+.img19:hover {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.img20:hover {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.img21:hover {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.zoom-1 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  align-items: center;
+}
+
+.image-container3-img:hover > .zoom-1 {
+  opacity: 1;
+}
+
+.image-container4 {
+  width: 100%;
+  display: flex;
+  margin-top: -14px;
+}
+
+.img22  {
+  display: block;
+  width: 102%;
+  height: 16.52rem;
+  aspect-ratio: auto;
+  border-bottom-left-radius: 5px;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms ease-in-out;
+}
+
+.img23 {
+  display: block;
+  width: 102%;
+  height: 15.8rem;
+  aspect-ratio: auto;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms ease-in-out;
+  margin-top: 4px;
+}
+
+.img24 {
+  display: block;
+  width: 102%;
+  height: 16.52rem;
+  aspect-ratio: auto;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms ease-in-out;
+}
+
+.img25 {
+  display: block;
+  width: 97%;
+  height: 16.52rem;
+  aspect-ratio: auto;
+  border-bottom-left-radius: 5px;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms ease-in-out;
 }
 
 
-.img19, .img20, .img21, .img22, .img23, .img24, .img25 {
-  max-width: 100%;
+.img22:hover {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.img23:hover {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.img24:hover {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.img25:hover {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.image-container4-img:hover > .zoom-1 {
+  opacity: 1;
 }
 
 
@@ -996,4 +1116,6596 @@ hr {
   font-size: 14px;
   font-weight: 300;
   
+}
+
+@media only screen and (max-width: 1440px) {
+  body {
+    width: 100%;
+    background-color:white;
+  }
+  
+  ;:root {
+    font-family: Sinhala MN;
+    font-family: Mulish;
+    font-family: Montserrat;
+    font-family: Avenir;
+  }
+  
+  @font-face {
+    font-family:  Sinhala MN;
+    src: url( Sinhala MN.ttf) format('ttf');
+  
+    font-family:  Mulish;
+    src: url( Mulish.ttf) format('ttf');
+  
+    font-family:  Montserrat;
+    src: url( Montserrat.ttf) format('ttf');
+  
+    font-family:  Avenir;
+    src: url( Avenir.otf) format('otf');
+  }
+  
+  header {
+    height: 70px;
+    width: 100%;
+    background-color: #f2f5ff;
+    padding: 10px 50px 10px 50px;
+    position: fixed;
+    z-index: +2;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-nav {
+    width: 100%;
+  }
+  
+  .logo {
+    width: 150px;
+    display: flex;
+  }
+  
+  .right-nav {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+  
+  
+  .nav0 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav1, .nav2, .nav3, .nav4,.nav5, .nav6 {
+   margin: 15px 12px 15px 12px;
+   color: #042482;
+   font-family: Mulish;
+   font-size: 11px;
+   font-weight: 500;
+  
+  }
+  
+  .nav01 {
+    width: 70px;
+    height: 25px;
+    background-color: #042482;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .bold {
+    width: 15px;
+  }
+  
+  .nav7 {
+    color: white;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 4px;
+  }
+  
+  main {
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 50px;
+    height: 280px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 200px;
+    right: 0%;
+    z-index: 1;
+  }
+  
+  .search {
+    width: 15px;
+    margin: 15px 5px 15px 5px;
+  }
+  
+  .enquire {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 20px 10px 0px 5px;
+  }
+  
+  .apply {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 60px 10px 0px  5px;
+  }
+  
+  .visit {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 50px 10px 0px 5px;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 90px 50px 100px 50px;
+    background-image: url(img/Rectangle\ 10051.svg), url(img/Rectangle\ 10050.svg);
+    background-position: right, left;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 2000px, 650px;
+    background-position-y: 100px, 485px; 
+    background-position-x: 800px, left;
+  }
+  
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 100px 0px 0px auto;
+  }
+  
+  .word {
+    line-height: 50px;
+    font-size: 32px;
+    font-weight: 100;
+    color: #191919;
+    font-family:  Sinhala MN;
+    width: 80%;
+  }
+  
+  
+  .word01 {
+    line-height: 30px;
+    font-size: 16px;
+    color: #191919;
+    font-family: Mulish;
+    width: 80%;
+    margin: 10px 0px 10px 30px
+  }
+  
+  .button {
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    margin: 20px 0px 10px 0px
+  }
+  
+  div.button:hover {
+    background-color: #042482;
+    color: white;
+  
+  }
+  
+  
+  .scroller {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-left: 30px;
+  }
+  
+  
+  .arrow {
+    width: 50px;
+    display: flex;
+    margin-right: 30px;
+  }
+  
+  .circles {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .circle1 {
+    width: 50px;
+    height: 10px;
+    background-color: #042482;
+    border-radius: 50px;
+    margin-right: 5px;
+  }
+  
+  .circle2 {
+    width: 10px;
+    height: 10px;
+    border-color: #042482;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-right: 5px;
+  
+  }
+  
+  .circle3 {
+    width: 10px;
+    height: 10px;
+    border-color: #042482;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-right: 5px;
+  
+  }
+  
+  .circle4 {
+    width: 10px;
+    height: 10px;
+    border-color: #042482;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+  }
+  
+  .arrow1 {
+    width: 50px;
+    margin-left: 30px;
+    display: flex;
+  }
+  
+  .right-container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  
+  }
+  
+  
+  .img03 {
+    width: 800px;
+    display: flex;
+  }
+  
+  
+  
+  .container01 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+    background-image: url(img/Path\ 4695.svg);
+    background-repeat: no-repeat;
+    background-position-x: -450px;
+    background-position-y: 300px;
+    background-size: 900px;
+    
+  }
+  
+  .left-container1 {
+    width: 100%;
+    margin: 200px 0px 0px 200px;
+  }
+  
+  
+  .img05  {
+    width: 600px;
+    display: flex;
+  }
+  
+  .right-container1 {
+    width: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    margin: 300px 0px 0px 100px;
+  }
+  
+  
+  .word02 {
+    line-height: 50px;
+    font-size: 32px;
+    font-weight: 100;
+    color: #191919;
+    font-family:  Sinhala MN;
+    width: 80%;
+  }
+  
+  
+  .word03 {
+    line-height: 30px;
+    font-size: 16px;
+    color: #191919;
+    font-family: Mulish;
+    width: 80%;
+    margin: 10px 0px 10px 30px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .button01 {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+  }
+  
+  div.button01:hover {
+    background-color: #042482;
+    color: white;
+  }
+  
+  
+  
+  .container02 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 90px 50px 0px 50px;
+    background-image: url(img/Path\ 4695.svg) ,url(img/Rectangle\ 10055.svg);
+    background-repeat: no-repeat ,no-repeat;
+    background-position: -470px, right;
+    background-size: 900px, 800px;
+    background-position-y: -400px ,250px;
+  }
+  
+  .left-container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 160px 0px 0px auto;
+  }
+  
+  .mission {
+    font-family: Mulish;
+    font-size: 14px;
+    color: #042482;
+    letter-spacing: 5px;
+    margin-top: 5px;
+  }
+  
+  .mission01 {
+    font-family: Sinhala Mn;
+    font-size: 32px;
+    color: #191919;
+    line-height: 45px;
+    width: 90%;
+    margin-top: 50px;
+  }
+  
+  .mission02 {
+    font-family: Mulish;
+    font-size: 14px;
+    color: #191919;
+    line-height: 25px;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  
+  .button02 {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    margin-top: 30px;
+  }
+  
+  div.button02:hover {
+    background-color: #042482;
+    color: white;
+  }
+  
+  
+  .right-container2 {
+    width: 3000px;
+    margin-top: 200px;
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    left: 150px;
+    scrollbar-width: none;
+  }
+  
+  .scrollerrr {
+    display: flex;
+  }
+  
+  
+  .boxsc1, .boxsc2, .boxsc3, .boxsc4, .boxsc5, .boxsc6 {
+    color:#191919;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    font-family:  Sinhala Mn;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 8%;
+    bottom: 15%;
+  }
+  
+  .img07, .img08, .img09, .img10, .img11, .img12 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 420px;
+  }
+  
+  .arrow-container {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    right: 20%;
+    top: 310px;
+  }
+  
+  .container03 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 90px 50px 0px 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top-container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .news {
+    color: #042482;
+    font-size: 14px;
+    font-family: Montserrat;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+  }
+  
+  .news1 {
+    color: #191919;
+    font-size: 24px;
+    font-family: Sinhala Mn;
+    font-weight: 200;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+  }
+  
+  .news2 {
+    color: #191919;
+    font-size: 12px;
+    font-family: Montserrat;
+  }
+  
+  .bottom-container {
+    width: 1300px;
+    margin-top: 50px;
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+  
+  .sliderrr {
+    display: flex;
+  }
+  
+  .boxsc7, .boxsc8, .boxsc9, .boxsc10 {
+    color:#191919;
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    font-family:  Sinhala Mn;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 5%;
+    bottom: 30%;
+  }
+  
+  .event {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 14px;
+    position: relative;
+    left: 8%;
+    bottom: 70%;
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .date {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    position: relative;
+    left: 8%;
+    bottom: 35%;
+  }
+  
+  .read-more {
+    color: #191919;
+    text-decoration: underline;
+    font-family: Montserrat;
+    font-size: 12px;
+    position: relative;
+    left: 70%;
+    bottom: 39%;
+  }
+  
+  .img13, .img14, .img15, .img16 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 420px;
+  }
+  
+  .arrow-container1 {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    bottom: 100px;
+  }
+  
+  .button03 {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    text-align: center;
+  }
+  
+  .button03:hover {
+    color: white;
+    background-color: #042482;
+  }
+  
+  .container04 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 200px 50px 0px 50px;
+    background-image: url(img/Path\ 4696\ 2.svg);
+    background-size: 700px;
+    background-repeat:no-repeat;
+    background-position: 1200px;
+  }
+  
+  .left-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  
+  .appostrophe {
+    width: 50px;
+    margin: 15px 0px 20px 0px;
+  }
+  
+  .voice {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .about {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+  
+  .impressive {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    width: 60%;
+    text-align: center;
+  }
+  
+  .impressive1 {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    width: 63%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .name {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    width: 70%;
+    text-align: center;
+    word-spacing: 3px;
+  }
+  
+  .arrow-container2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  
+  .right-container3 {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+  }
+  
+  .image-container2 {
+    display: flex;
+    position: absolute;
+  }
+  
+  .img17 {
+    width: 550px;
+    display: flex;
+  }
+  
+  .img18 {
+    width: 450px;
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 4%;
+  }
+  
+  
+  
+  .container05 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 200px 50px 200px 50px;
+    background-image: url(img/Path\ 4695.svg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-y: 600px;
+    background-position-x: -400px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .word04 {
+    margin-bottom: 30px;
+    align-self: flex-start;
+    justify-self: left;
+  }
+  
+  .explore {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .explore1 {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    text-align: left;
+  }
+  
+  .image-container3  {
+    width: 100%;
+    display: flex;
+  }
+  
+  .image-container3-img, .image-container4-img {
+    position: relative;
+  }
+  
+  .img19 {
+    display: block;
+    width: 103%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img20 {
+    display: block;
+    width: 102%;
+    height: 22rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img21 {
+    display: block;
+    width: 97.5%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img19:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img20:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img21:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .zoom-1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    align-items: center;
+  }
+  
+  .image-container3-img:hover > .zoom-1 {
+    opacity: 1;
+  }
+  
+  .image-container4 {
+    width: 100%;
+    display: flex;
+    margin-top: -14px;
+  }
+  
+  .img22  {
+    display: block;
+    width: 102%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img23 {
+    display: block;
+    width: 102%;
+    height: 15.8rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+    margin-top: 4px;
+  }
+  
+  .img24 {
+    display: block;
+    width: 102%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img25 {
+    display: block;
+    width: 97%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  
+  .img22:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img23:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img24:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img25:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .image-container4-img:hover > .zoom-1 {
+    opacity: 1;
+  }
+  
+  
+  
+  .button04 {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .button04:hover {
+    color: white;
+    background-color: #042482;
+  }
+  
+  .word05 {
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+  
+  .explore2 {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .explore3 {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+  
+  .image-container5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .enquire1, .enquire3, .enquire4 {
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-color:#042482;
+    border-bottom-width: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    height: 330px;
+    color: #191919;
+  }
+  
+  
+  .enquire1:hover, .enquire3:hover, .enquire4:hover {
+    top: 100px;
+    height: 330px;
+    background-color: #042482;
+    color: white;
+    transition: all .5s ease-in-out;
+    border-bottom-color:#042482;
+    border-bottom-width: 10px;
+    border-radius: 10px;
+  }
+  
+  .image-container5 img {
+    width: 400px;
+  }
+  
+  .enquire2 {
+    text-align: center;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #f2f5ff;
+    width: 100%;
+    padding: 80px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-container1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5%;
+  }
+  
+  .materr {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+  }
+  
+  .logo1 {
+    width: 150px;
+  }
+  
+  .college {
+    color: #042482;
+    font-family: Mulish;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 350;
+    margin-top: 30px;
+    line-height: 25px;
+  }
+  
+  .get {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .in {
+    color: #042482;
+    font-family: Sinhala Mn;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .phone {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  
+  }
+  
+  .email {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  
+  }
+  
+  .address {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  
+  .junior, .senior, .enquire5, .apply1 {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  
+  
+  .Useful {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .share {
+    color: #042482;
+    font-family: Sinhala Mn;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  
+  
+  .Connect img {
+    width: 35px;
+  }
+  
+  .powered {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .powered img {
+    width: 150px;
+  }
+  
+  .top {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 16px;
+    margin: 50px 0px 10px 0px;
+    text-align: right;
+  }
+  
+  hr {
+    color: #042482;
+    opacity: 0.4;
+  }
+  
+  .bottom-container1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 67%;
+  }
+  
+  .car {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .privacy {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  body {
+    width: 100%;
+    background-color:white;
+  }
+  
+  ;:root {
+    font-family: Sinhala MN;
+    font-family: Mulish;
+    font-family: Montserrat;
+    font-family: Avenir;
+  }
+  
+  @font-face {
+    font-family:  Sinhala MN;
+    src: url( Sinhala MN.ttf) format('ttf');
+  
+    font-family:  Mulish;
+    src: url( Mulish.ttf) format('ttf');
+  
+    font-family:  Montserrat;
+    src: url( Montserrat.ttf) format('ttf');
+  
+    font-family:  Avenir;
+    src: url( Avenir.otf) format('otf');
+  }
+  
+  header {
+    height: 70px;
+    width: 100%;
+    background-color: #f2f5ff;
+    padding: 10px 50px 10px 50px;
+    position: fixed;
+    z-index: +2;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-nav {
+    width: 80%;
+  }
+  
+  .logo {
+    width: 150px;
+    display: flex;
+  }
+  
+  .right-nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  
+  .nav0 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav1, .nav2, .nav3, .nav4,.nav5, .nav6 {
+   margin: 15px 13px 15px 13px;
+   color: #042482;
+   font-family: Mulish;
+   font-size: 10px;
+   font-weight: 500;
+  
+  }
+  
+  .nav01 {
+    width: 70px;
+    height: 25px;
+    background-color: #042482;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .bold {
+    width: 15px;
+  }
+  
+  .nav7 {
+    color: white;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 4px;
+  }
+  
+  main {
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 50px;
+    height: 280px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 200px;
+    right: 0%;
+    z-index: 1;
+  }
+  
+  .search {
+    width: 15px;
+    margin: 15px 5px 15px 5px;
+  }
+  
+  .enquire {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 20px 10px 0px 5px;
+  }
+  
+  .apply {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 60px 10px 0px  5px;
+  }
+  
+  .visit {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 50px 10px 0px 5px;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 90px 50px 90px 50px;
+    background-image: url(img/Rectangle\ 10051.svg), url(img/Rectangle\ 10050.svg);
+    background-position: right, left;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 2000px, 550px;
+    background-position-y: 130px, 420px; 
+    background-position-x: 650px, left;
+  }
+  
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 60px 0px 0px auto;
+  }
+  
+  .word {
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 100;
+    color: #191919;
+    font-family:  Sinhala MN;
+    width: 80%;
+  }
+  
+  
+  .word01 {
+    line-height: 20px;
+    font-size: 14px;
+    color: #191919;
+    font-family: Mulish;
+    width: 80%;
+    margin: 10px 0px 10px 30px
+  }
+  
+  .button {
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    margin: 20px 0px 10px 0px
+  }
+  
+  div.button:hover {
+    background-color: #042482;
+    color: white;
+  
+  }
+  
+  
+  .scroller {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-left: 30px;
+  }
+  
+  
+  .arrow {
+    width: 50px;
+    display: flex;
+    margin-right: 30px;
+  }
+  
+  .circles {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .circle1 {
+    width: 50px;
+    height: 10px;
+    background-color: #042482;
+    border-radius: 50px;
+    margin-right: 5px;
+  }
+  
+  .circle2 {
+    width: 10px;
+    height: 10px;
+    border-color: #042482;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-right: 5px;
+  
+  }
+  
+  .circle3 {
+    width: 10px;
+    height: 10px;
+    border-color: #042482;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-right: 5px;
+  
+  }
+  
+  .circle4 {
+    width: 10px;
+    height: 10px;
+    border-color: #042482;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+  }
+  
+  .arrow1 {
+    width: 50px;
+    margin-left: 30px;
+    display: flex;
+  }
+  
+  .right-container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  
+  }
+  
+  
+  .img03 {
+    width: 650px;
+    display: flex;
+  }
+  
+  
+  
+  .container01 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+    background-image: url(img/Path\ 4695.svg);
+    background-repeat: no-repeat;
+    background-position-x: -450px;
+    background-position-y: 300px;
+    background-size: 900px;
+    
+  }
+  
+  .left-container1 {
+    width: 100%;
+    margin: 100px 0px 0px 100px;
+  }
+  
+  
+  .img05  {
+    width: 400px;
+    display: flex;
+  }
+  
+  .right-container1 {
+    width: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 0px 50px;
+  }
+  
+  
+  .word02 {
+    line-height: 50px;
+    font-size: 32px;
+    font-weight: 100;
+    color: #191919;
+    font-family:  Sinhala MN;
+    width: 90%;
+  }
+  
+  
+  .word03 {
+    line-height: 30px;
+    font-size: 16px;
+    color: #191919;
+    font-family: Mulish;
+    width: 80%;
+    margin: 10px 0px 10px 30px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .button01 {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+  }
+  
+  div.button01:hover {
+    background-color: #042482;
+    color: white;
+  }
+  
+  
+  
+  .container02 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 90px 50px 0px 50px;
+    background-image: url(img/Path\ 4695.svg) ,url(img/Rectangle\ 10055.svg);
+    background-repeat: no-repeat ,no-repeat;
+    background-position: -470px, right;
+    background-size: 900px, 600px;
+    background-position-y: -400px ,250px;
+  }
+  
+  .left-container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 160px 0px 0px auto;
+  }
+  
+  .mission {
+    font-family: Mulish;
+    font-size: 14px;
+    color: #042482;
+    letter-spacing: 5px;
+    margin-top: 5px;
+  }
+  
+  .mission01 {
+    font-family: Sinhala Mn;
+    font-size: 28px;
+    color: #191919;
+    line-height: 38px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .mission02 {
+    font-family: Mulish;
+    font-size: 14px;
+    color: #191919;
+    line-height: 25px;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  
+  .button02 {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    margin-top: 30px;
+  }
+  
+  div.button02:hover {
+    background-color: #042482;
+    color: white;
+  }
+  
+  
+  .right-container2 {
+    width: 3500px;
+    margin-top: 200px;
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    left: 150px;
+    scrollbar-width: none;
+  }
+  
+  .scrollerrr {
+    display: flex;
+  }
+  
+  
+  .boxsc1, .boxsc2, .boxsc3, .boxsc4, .boxsc5, .boxsc6 {
+    color:#191919;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    font-family:  Sinhala Mn;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 8%;
+    bottom: 15%;
+  }
+  
+  .img07, .img08, .img09, .img10, .img11, .img12 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 420px;
+  }
+  
+  .arrow-container {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    right: 20%;
+    top: 310px;
+  }
+  
+  .container03 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 70px 50px 0px 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top-container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .news {
+    color: #042482;
+    font-size: 14px;
+    font-family: Montserrat;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+  }
+  
+  .news1 {
+    color: #191919;
+    font-size: 24px;
+    font-family: Sinhala Mn;
+    font-weight: 200;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+  }
+  
+  .news2 {
+    color: #191919;
+    font-size: 12px;
+    font-family: Montserrat;
+  }
+  
+  .bottom-container {
+    width: 1000px;
+    margin-top: 50px;
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+  
+  .sliderrr {
+    display: flex;
+  }
+  
+  .boxsc7, .boxsc8, .boxsc9, .boxsc10 {
+    color:#191919;
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    font-family:  Sinhala Mn;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 5%;
+    bottom: 30%;
+  }
+  
+  .event {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 14px;
+    position: relative;
+    left: 8%;
+    bottom: 70%;
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .date {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    position: relative;
+    left: 8%;
+    bottom: 35%;
+  }
+  
+  .read-more {
+    color: #191919;
+    text-decoration: underline;
+    font-family: Montserrat;
+    font-size: 12px;
+    position: relative;
+    left: 70%;
+    bottom: 39%;
+  }
+  
+  .img13, .img14, .img15, .img16 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 420px;
+  }
+  
+  .arrow-container1 {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    bottom: 100px;
+  }
+  
+  .button03 {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    text-align: center;
+  }
+  
+  .button03:hover {
+    color: white;
+    background-color: #042482;
+  }
+  
+  .container04 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 50px 0px 50px;
+    background-image: url(img/Path\ 4696\ 2.svg);
+    background-size: 500px;
+    background-repeat:no-repeat;
+    background-position: 1000px;
+  }
+  
+  .left-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  
+  .appostrophe {
+    width: 50px;
+    margin: 15px 0px 20px 0px;
+  }
+  
+  .voice {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .about {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+  
+  .impressive {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    width: 60%;
+    text-align: center;
+  }
+  
+  .impressive1 {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    width: 63%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .name {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    width: 70%;
+    text-align: center;
+    word-spacing: 3px;
+  }
+  
+  .arrow-container2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  
+  .right-container3 {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    margin-top: 70px;
+  }
+  
+  .image-container2 {
+    display: flex;
+    position: absolute;
+  }
+  
+  .img17 {
+    width: 450px;
+    display: flex;
+  }
+  
+  .img18 {
+    width: 350px;
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+  }
+  
+  
+  
+  .container05 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 200px 50px 200px 50px;
+    background-image: url(img/Path\ 4695.svg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-y: 600px;
+    background-position-x: -400px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .word04 {
+    margin-bottom: 30px;
+    align-self: flex-start;
+    justify-self: left;
+  }
+  
+  .explore {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .explore1 {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    text-align: left;
+  }
+  
+  .image-container3  {
+    width: 100%;
+    display: flex;
+  }
+  
+  .image-container3-img, .image-container4-img {
+    position: relative;
+  }
+  
+  .img19 {
+    display: block;
+    width: 103%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img20 {
+    display: block;
+    width: 102%;
+    height: 22rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img21 {
+    display: block;
+    width: 97.5%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img19:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img20:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img21:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .zoom-1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    align-items: center;
+  }
+  
+  .image-container3-img:hover > .zoom-1 {
+    opacity: 1;
+  }
+  
+  .image-container4 {
+    width: 100%;
+    display: flex;
+    margin-top: -14px;
+  }
+  
+  .img22  {
+    display: block;
+    width: 102%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img23 {
+    display: block;
+    width: 102%;
+    height: 15.8rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+    margin-top: 4px;
+  }
+  
+  .img24 {
+    display: block;
+    width: 102%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img25 {
+    display: block;
+    width: 97%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  
+  .img22:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img23:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img24:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img25:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .image-container4-img:hover > .zoom-1 {
+    opacity: 1;
+  }
+  
+  
+  
+  .button04 {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .button04:hover {
+    color: white;
+    background-color: #042482;
+  }
+  
+  .word05 {
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+  
+  .explore2 {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .explore3 {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+  
+  .image-container5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .enquire1, .enquire3, .enquire4 {
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-color:#042482;
+    border-bottom-width: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    height: 270px;
+    color: #191919;
+  }
+  
+  
+  .enquire1:hover, .enquire3:hover, .enquire4:hover {
+    top: 100px;
+    height: 270px;
+    background-color: #042482;
+    color: white;
+    transition: all .5s ease-in-out;
+    border-bottom-color:#042482;
+    border-bottom-width: 10px;
+    border-radius: 10px;
+  }
+  
+  .image-container5 img {
+    width: 320px;
+  }
+  
+  .enquire2 {
+    text-align: center;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #f2f5ff;
+    width: 100%;
+    padding: 80px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-container1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5%;
+  }
+  
+  .materr {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+  }
+  
+  .logo1 {
+    width: 150px;
+  }
+  
+  .college {
+    color: #042482;
+    font-family: Mulish;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 350;
+    margin-top: 30px;
+    line-height: 25px;
+  }
+  
+  .get {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .in {
+    color: #042482;
+    font-family: Sinhala Mn;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .phone {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  
+  }
+  
+  .email {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  
+  }
+  
+  .address {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  
+  .junior, .senior, .enquire5, .apply1 {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  
+  
+  .Useful {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .share {
+    color: #042482;
+    font-family: Sinhala Mn;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  
+  
+  .Connect img {
+    width: 35px;
+  }
+  
+  .powered {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .powered img {
+    width: 150px;
+  }
+  
+  .top {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 14px;
+    margin: 50px 0px 10px 0px;
+    text-align: right;
+  }
+  
+  hr {
+    color: #042482;
+    opacity: 0.4;
+  }
+  
+  .bottom-container1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 63%;
+  }
+  
+  .car {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .privacy {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 100%;
+    background-color:white;
+  }
+  
+  ;:root {
+    font-family: Sinhala MN;
+    font-family: Mulish;
+    font-family: Montserrat;
+    font-family: Avenir;
+  }
+  
+  @font-face {
+    font-family:  Sinhala MN;
+    src: url( Sinhala MN.ttf) format('ttf');
+  
+    font-family:  Mulish;
+    src: url( Mulish.ttf) format('ttf');
+  
+    font-family:  Montserrat;
+    src: url( Montserrat.ttf) format('ttf');
+  
+    font-family:  Avenir;
+    src: url( Avenir.otf) format('otf');
+  }
+  
+  header {
+    height: 70px;
+    width: 100%;
+    background-color: #f2f5ff;
+    padding: 10px 50px 10px 50px;
+    position: fixed;
+    z-index: +2;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-nav {
+    width: 68%;
+  }
+  
+  .logo {
+    width: 150px;
+    display: flex;
+  }
+  
+  .right-nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  
+  .nav0 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav1, .nav2, .nav3, .nav4,.nav5, .nav6 {
+   margin: 15px 10px 15px 10px;
+   color: #042482;
+   font-family: Mulish;
+   font-size: 10px;
+   font-weight: 500;
+  }
+  
+  .nav01 {
+    width: 70px;
+    height: 25px;
+    background-color: #042482;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  
+  .bold {
+    width: 15px;
+  }
+  
+  .nav7 {
+    color: white;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 4px;
+  }
+  
+  main {
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 50px;
+    height: 280px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 200px;
+    right: 0%;
+    z-index: 1;
+  }
+  
+  .search {
+    width: 15px;
+    margin: 15px 5px 15px 5px;
+  }
+  
+  .enquire {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 20px 10px 0px 5px;
+  }
+  
+  .apply {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 60px 10px 0px  5px;
+  }
+  
+  .visit {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 50px 10px 0px 5px;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 90px 50px 40px 50px;
+    background-image: url(img/Rectangle\ 10051.svg), url(img/Rectangle\ 10050.svg);
+    background-position: right, left;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1800px, 550px;
+    background-position-y: 130px, 370px; 
+    background-position-x: 650px, left;
+  }
+  
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 0px 0px auto;
+  }
+  
+  .word {
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 100;
+    color: #191919;
+    font-family:  Sinhala MN;
+    width: 100%;
+  }
+  
+  
+  .word01 {
+    line-height: 20px;
+    font-size: 14px;
+    color: #191919;
+    font-family: Mulish;
+    width: 80%;
+    margin: 10px 0px 10px 30px
+  }
+  
+  .button {
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    margin: 20px 0px 10px 0px
+  }
+  
+  div.button:hover {
+    background-color: #042482;
+    color: white;
+  
+  }
+  
+  
+  .scroller {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  
+  
+  .arrow {
+    width: 50px;
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .circles {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .circle1 {
+    width: 50px;
+    height: 10px;
+    background-color: #042482;
+    border-radius: 50px;
+    margin-right: 5px;
+  }
+  
+  .circle2 {
+    width: 10px;
+    height: 10px;
+    border-color: #042482;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-right: 5px;
+  
+  }
+  
+  .circle3 {
+    width: 10px;
+    height: 10px;
+    border-color: #042482;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-right: 5px;
+  
+  }
+  
+  .circle4 {
+    width: 10px;
+    height: 10px;
+    border-color: #042482;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+  }
+  
+  .arrow1 {
+    width: 50px;
+    margin-left: 20px;
+    display: flex;
+  }
+  
+  .right-container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  
+  }
+  
+  
+  .img03 {
+    width: 500px;
+    display: flex;
+  }
+  
+  
+  
+  .container01 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+    background-image: url(img/Path\ 4695.svg);
+    background-repeat: no-repeat;
+    background-position-x: -450px;
+    background-position-y: 50px;
+    background-size: 900px;
+    
+  }
+  
+  .left-container1 {
+    width: 100%;
+    margin: 100px 0px 0px 100px;
+  }
+  
+  
+  .img05  {
+    width: 400px;
+    display: flex;
+  }
+  
+  .right-container1 {
+    width: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 0px 50px;
+  }
+  
+  
+  .word02 {
+    line-height: 50px;
+    font-size: 32px;
+    font-weight: 100;
+    color: #191919;
+    font-family:  Sinhala MN;
+    width: 90%;
+  }
+  
+  
+  .word03 {
+    line-height: 30px;
+    font-size: 16px;
+    color: #191919;
+    font-family: Mulish;
+    width: 80%;
+    margin: 10px 0px 10px 30px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .button01 {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+  }
+  
+  div.button01:hover {
+    background-color: #042482;
+    color: white;
+  }
+  
+  
+  
+  .container02 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 90px 50px 0px 50px;
+    background-image: url(img/Path\ 4695.svg) ,url(img/Rectangle\ 10055.svg);
+    background-repeat: no-repeat ,no-repeat;
+    background-position: -470px, right;
+    background-size: 900px, 350px;
+    background-position-y: -400px ,250px;
+  }
+  
+  .left-container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 160px 0px 0px auto;
+  }
+  
+  .mission {
+    font-family: Mulish;
+    font-size: 14px;
+    color: #042482;
+    letter-spacing: 5px;
+    margin-top: 5px;
+  }
+  
+  .mission01 {
+    font-family: Sinhala Mn;
+    font-size: 30px;
+    color: #191919;
+    line-height: 38px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .mission02 {
+    font-family: Mulish;
+    font-size: 12px;
+    color: #191919;
+    line-height: 20px;
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 30px;
+  }
+  
+  .button02 {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    margin-top: 30px;
+  }
+  
+  div.button02:hover {
+    background-color: #042482;
+    color: white;
+  }
+  
+  
+  .right-container2 {
+    width: 2000px;
+    margin-top: 200px;
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    left: 150px;
+    scrollbar-width: none;
+  }
+  
+  .scrollerrr {
+    display: flex;
+  }
+  
+  
+  .boxsc1, .boxsc2, .boxsc3, .boxsc4, .boxsc5, .boxsc6 {
+    color:#191919;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    font-family:  Sinhala Mn;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 8%;
+    bottom: 15%;
+  }
+  
+  .img07, .img08, .img09, .img10, .img11, .img12 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 420px;
+  }
+  
+  .arrow-container {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    right: 20%;
+    top: 310px;
+  }
+  
+  .container03 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 70px 50px 0px 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top-container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .news {
+    color: #042482;
+    font-size: 14px;
+    font-family: Montserrat;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+  }
+  
+  .news1 {
+    color: #191919;
+    font-size: 24px;
+    font-family: Sinhala Mn;
+    font-weight: 200;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+  }
+  
+  .news2 {
+    color: #191919;
+    font-size: 12px;
+    font-family: Montserrat;
+  }
+  
+  .bottom-container {
+    width: 1000px;
+    margin-top: 50px;
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+  
+  .sliderrr {
+    display: flex;
+  }
+  
+  .boxsc7, .boxsc8, .boxsc9, .boxsc10 {
+    color:#191919;
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    font-family:  Sinhala Mn;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 5%;
+    bottom: 30%;
+  }
+  
+  .event {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 14px;
+    position: relative;
+    left: 8%;
+    bottom: 70%;
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .date {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    position: relative;
+    left: 8%;
+    bottom: 35%;
+  }
+  
+  .read-more {
+    color: #191919;
+    text-decoration: underline;
+    font-family: Montserrat;
+    font-size: 12px;
+    position: relative;
+    left: 70%;
+    bottom: 39%;
+  }
+  
+  .img13, .img14, .img15, .img16 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 420px;
+  }
+  
+  .arrow-container1 {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    bottom: 100px;
+  }
+  
+  .button03 {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    text-align: center;
+  }
+  
+  .button03:hover {
+    color: white;
+    background-color: #042482;
+  }
+  
+  .container04 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 50px 0px 50px;
+    background-image: url(img/Path\ 4696\ 2.svg);
+    background-size: 500px;
+    background-repeat:no-repeat;
+    background-position: 1000px;
+  }
+  
+  .left-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  
+  .appostrophe {
+    width: 50px;
+    margin: 15px 0px 20px 0px;
+  }
+  
+  .voice {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .about {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+  
+  .impressive {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    width: 60%;
+    text-align: center;
+  }
+  
+  .impressive1 {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    width: 63%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .name {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    width: 70%;
+    text-align: center;
+    word-spacing: 3px;
+  }
+  
+  .arrow-container2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  
+  .right-container3 {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    margin-top: 70px;
+  }
+  
+  .image-container2 {
+    display: flex;
+    position: absolute;
+  }
+  
+  .img17 {
+    width: 450px;
+    display: flex;
+  }
+  
+  .img18 {
+    width: 350px;
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+  }
+  
+  
+  
+  .container05 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 200px 50px 200px 50px;
+    background-image: url(img/Path\ 4695.svg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-y: 600px;
+    background-position-x: -400px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .word04 {
+    margin-bottom: 30px;
+    align-self: flex-start;
+    justify-self: left;
+  }
+  
+  .explore {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .explore1 {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    text-align: left;
+  }
+  
+  .image-container3  {
+    width: 100%;
+    display: flex;
+  }
+  
+  .image-container3-img, .image-container4-img {
+    position: relative;
+  }
+  
+  .img19 {
+    display: block;
+    width: 103%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img20 {
+    display: block;
+    width: 102%;
+    height: 22rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img21 {
+    display: block;
+    width: 97.5%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img19:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img20:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img21:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .zoom-1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    align-items: center;
+  }
+  
+  .image-container3-img:hover > .zoom-1 {
+    opacity: 1;
+  }
+  
+  .image-container4 {
+    width: 100%;
+    display: flex;
+    margin-top: -14px;
+  }
+  
+  .img22  {
+    display: block;
+    width: 102%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img23 {
+    display: block;
+    width: 102%;
+    height: 15.8rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+    margin-top: 4px;
+  }
+  
+  .img24 {
+    display: block;
+    width: 102%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img25 {
+    display: block;
+    width: 97%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  
+  .img22:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img23:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img24:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img25:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .image-container4-img:hover > .zoom-1 {
+    opacity: 1;
+  }
+  
+  
+  
+  .button04 {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .button04:hover {
+    color: white;
+    background-color: #042482;
+  }
+  
+  .word05 {
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+  
+  .explore2 {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .explore3 {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+  
+  .image-container5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .enquire1, .enquire3, .enquire4 {
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-color:#042482;
+    border-bottom-width: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    height: 230px;
+    color: #191919;
+  }
+  
+  
+  .enquire1:hover, .enquire3:hover, .enquire4:hover {
+    top: 100px;
+    height: 230px;
+    background-color: #042482;
+    color: white;
+    transition: all .5s ease-in-out;
+    border-bottom-color:#042482;
+    border-bottom-width: 10px;
+    border-radius: 10px;
+  }
+  
+  .image-container5 img {
+    width: 260px;
+  }
+  
+  .enquire2 {
+    text-align: center;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #f2f5ff;
+    width: 100%;
+    padding: 80px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-container1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 3.5%;
+  }
+  
+  .materr {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+  }
+  
+  .logo1 {
+    width: 150px;
+  }
+  
+  .college {
+    color: #042482;
+    font-family: Mulish;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 350;
+    margin-top: 30px;
+    line-height: 25px;
+  }
+  
+  .get {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .in {
+    color: #042482;
+    font-family: Sinhala Mn;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .phone {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  
+  }
+  
+  .email {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  
+  }
+  
+  .address {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  
+  .junior, .senior, .enquire5, .apply1 {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  
+  
+  .Useful {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .share {
+    color: #042482;
+    font-family: Sinhala Mn;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  
+  
+  .Connect img {
+    width: 35px;
+  }
+  
+  .powered {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .powered img {
+    width: 150px;
+  }
+  
+  .top {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 14px;
+    margin: 50px 0px 10px 0px;
+    text-align: right;
+  }
+  
+  hr {
+    color: #042482;
+    opacity: 0.4;
+  }
+  
+  .bottom-container1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 60%;
+  }
+  
+  .car {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  
+  .privacy {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    width: 100%;
+    background-color:white;
+  }
+  
+  ;:root {
+    font-family: Sinhala MN;
+    font-family: Mulish;
+    font-family: Montserrat;
+    font-family: Avenir;
+  }
+  
+  @font-face {
+    font-family:  Sinhala MN;
+    src: url( Sinhala MN.ttf) format('ttf');
+  
+    font-family:  Mulish;
+    src: url( Mulish.ttf) format('ttf');
+  
+    font-family:  Montserrat;
+    src: url( Montserrat.ttf) format('ttf');
+  
+    font-family:  Avenir;
+    src: url( Avenir.otf) format('otf');
+  }
+  
+  header {
+    height: 70px;
+    width: 100%;
+    background-color: #f2f5ff;
+    padding: 10px 50px 10px 50px;
+    position: fixed;
+    z-index: +2;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-nav {
+    width: 62%;
+  }
+  
+  .logo {
+    width: 150px;
+    display: flex;
+  }
+  
+  .right-nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  
+  .nav0 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav1, .nav2, .nav3, .nav4,.nav5, .nav6 {
+   margin: 15px 10px 15px 10px;
+   color: #042482;
+   font-family: Mulish;
+   font-size: 10px;
+   font-weight: 500;
+  }
+  
+  .nav01 {
+    width: 70px;
+    height: 25px;
+    background-color: #042482;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  
+  .bold {
+    width: 15px;
+  }
+  
+  .nav7 {
+    color: white;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 4px;
+  }
+  
+  main {
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 50px;
+    height: 280px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 200px;
+    right: 0%;
+    z-index: 1;
+  }
+  
+  .search {
+    width: 15px;
+    margin: 15px 5px 15px 5px;
+  }
+  
+  .enquire {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 20px 10px 0px 5px;
+  }
+  
+  .apply {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 60px 10px 0px  5px;
+  }
+  
+  .visit {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 50px 10px 0px 5px;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 90px 50px 40px 50px;
+    background-image: url(img/Rectangle\ 10051.svg), url(img/Rectangle\ 10050.svg);
+    background-position: right, left;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1800px, 550px;
+    background-position-y: 130px, 370px; 
+    background-position-x: 650px, left;
+  }
+  
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 0px 0px auto;
+  }
+  
+  .word {
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 100;
+    color: #191919;
+    font-family:  Sinhala MN;
+    width: 100%;
+  }
+  
+  
+  .word01 {
+    line-height: 20px;
+    font-size: 14px;
+    color: #191919;
+    font-family: Mulish;
+    width: 80%;
+    margin: 10px 0px 10px 30px
+  }
+  
+  .button {
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    margin: 20px 0px 10px 0px
+  }
+  
+  div.button:hover {
+    background-color: #042482;
+    color: white;
+  
+  }
+  
+  
+  .scroller {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  
+  
+  .arrow {
+    width: 50px;
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .circles {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .circle1 {
+    width: 50px;
+    height: 10px;
+    background-color: #042482;
+    border-radius: 50px;
+    margin-right: 5px;
+  }
+  
+  .circle2 {
+    width: 10px;
+    height: 10px;
+    border-color: #042482;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-right: 5px;
+  
+  }
+  
+  .circle3 {
+    width: 10px;
+    height: 10px;
+    border-color: #042482;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    margin-right: 5px;
+  
+  }
+  
+  .circle4 {
+    width: 10px;
+    height: 10px;
+    border-color: #042482;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+  }
+  
+  .arrow1 {
+    width: 50px;
+    margin-left: 20px;
+    display: flex;
+  }
+  
+  .right-container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  
+  }
+  
+  
+  .img03 {
+    width: 500px;
+    display: flex;
+  }
+  
+  
+  
+  .container01 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+    background-image: url(img/Path\ 4695.svg);
+    background-repeat: no-repeat;
+    background-position-x: -450px;
+    background-position-y: 50px;
+    background-size: 870px;
+    
+  }
+  
+  .left-container1 {
+    width: 100%;
+    margin: 100px 0px 0px 100px;
+  }
+  
+  
+  .img05  {
+    width: 400px;
+    display: flex;
+  }
+  
+  .right-container1 {
+    width: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 0px 50px;
+  }
+  
+  
+  .word02 {
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 100;
+    color: #191919;
+    font-family:  Sinhala MN;
+    width: 100%;
+  }
+  
+  
+  .word03 {
+    line-height: 30px;
+    font-size: 16px;
+    color: #191919;
+    font-family: Mulish;
+    width: 80%;
+    margin: 10px 0px 10px 30px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .button01 {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+  }
+  
+  div.button01:hover {
+    background-color: #042482;
+    color: white;
+  }
+  
+  
+  
+  .container02 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 50px 50px 0px 50px;
+    background-image: url(img/Path\ 4695.svg) ,url(img/Rectangle\ 10055.svg);
+    background-repeat: no-repeat ,no-repeat;
+    background-position: -475px, right;
+    background-size: 880px, 450px;
+    background-position-y: -420px ,200px;
+  }
+  
+  .left-container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 160px 0px 0px auto;
+  }
+  
+  .mission {
+    font-family: Mulish;
+    font-size: 14px;
+    color: #042482;
+    letter-spacing: 5px;
+    margin-top: 5px;
+  }
+  
+  .mission01 {
+    font-family: Sinhala Mn;
+    font-size: 30px;
+    color: #191919;
+    line-height: 38px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .mission02 {
+    font-family: Mulish;
+    font-size: 12px;
+    color: #191919;
+    line-height: 20px;
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 30px;
+  }
+  
+  .button02 {
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    margin-top: 30px;
+  }
+  
+  div.button02:hover {
+    background-color: #042482;
+    color: white;
+  }
+  
+  
+  .right-container2 {
+    width: 2000px;
+    margin-top: 200px;
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    left: 150px;
+    scrollbar-width: none;
+  }
+  
+  .scrollerrr {
+    display: flex;
+  }
+  
+  
+  .boxsc1, .boxsc2, .boxsc3, .boxsc4, .boxsc5, .boxsc6 {
+    color:#191919;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    font-family:  Sinhala Mn;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 8%;
+    bottom: 15%;
+  }
+  
+  .img07, .img08, .img09, .img10, .img11, .img12 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 420px;
+  }
+  
+  .arrow-container {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    right: 20%;
+    top: 310px;
+  }
+  
+  .container03 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 70px 50px 0px 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top-container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .news {
+    color: #042482;
+    font-size: 14px;
+    font-family: Montserrat;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+  }
+  
+  .news1 {
+    color: #191919;
+    font-size: 24px;
+    font-family: Sinhala Mn;
+    font-weight: 200;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+  }
+  
+  .news2 {
+    color: #191919;
+    font-size: 12px;
+    font-family: Montserrat;
+  }
+  
+  .bottom-container {
+    width: 950px;
+    margin-top: 50px;
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+  
+  .sliderrr {
+    display: flex;
+  }
+  
+  .boxsc7, .boxsc8, .boxsc9, .boxsc10 {
+    color:#191919;
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    font-family:  Sinhala Mn;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 5%;
+    bottom: 30%;
+  }
+  
+  .event {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 14px;
+    position: relative;
+    left: 8%;
+    bottom: 65%;
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .date {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    position: relative;
+    left: 8%;
+    bottom: 35%;
+  }
+  
+  .read-more {
+    color: #191919;
+    text-decoration: underline;
+    font-family: Montserrat;
+    font-size: 12px;
+    position: relative;
+    left: 70%;
+    bottom: 39%;
+  }
+  
+  .img13, .img14, .img15, .img16 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+  }
+  
+  .arrow-container1 {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    bottom: 100px;
+  }
+  
+  .button03 {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    text-align: center;
+  }
+  
+  .button03:hover {
+    color: white;
+    background-color: #042482;
+  }
+  
+  .container04 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 50px 0px 50px;
+    background-image: url(img/Path\ 4696\ 2.svg);
+    background-size: 450px;
+    background-repeat:no-repeat;
+    background-position: 800px;
+  }
+  
+  .left-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+  
+  .appostrophe {
+    width: 50px;
+    margin: 15px 0px 20px 0px;
+  }
+  
+  .voice {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .about {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+  
+  .impressive {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    width: 60%;
+    text-align: center;
+  }
+  
+  .impressive1 {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    width: 63%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .name {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    width: 70%;
+    text-align: center;
+    word-spacing: 3px;
+  }
+  
+  .arrow-container2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  
+  .right-container3 {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    margin-top: 70px;
+  }
+  
+  .image-container2 {
+    display: flex;
+    position: absolute;
+  }
+  
+  .img17 {
+    width: 350px;
+    display: flex;
+  }
+  
+  .img18 {
+    width: 300px;
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+  }
+  
+  
+  
+  .container05 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 200px 50px 200px 50px;
+    background-image: url(img/Path\ 4695.svg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-y: 600px;
+    background-position-x: -400px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .word04 {
+    margin-bottom: 30px;
+    align-self: flex-start;
+    justify-self: left;
+  }
+  
+  .explore {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .explore1 {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    text-align: left;
+  }
+  
+  .image-container3  {
+    width: 100%;
+    display: flex;
+  }
+  
+  .image-container3-img, .image-container4-img {
+    position: relative;
+  }
+  
+  .img19 {
+    display: block;
+    width: 103%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img20 {
+    display: block;
+    width: 102%;
+    height: 22rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img21 {
+    display: block;
+    width: 97.5%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img19:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img20:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img21:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .zoom-1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    align-items: center;
+  }
+  
+  .image-container3-img:hover > .zoom-1 {
+    opacity: 1;
+  }
+  
+  .image-container4 {
+    width: 100%;
+    display: flex;
+    margin-top: -14px;
+  }
+  
+  .img22  {
+    display: block;
+    width: 102%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img23 {
+    display: block;
+    width: 102%;
+    height: 15.8rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+    margin-top: 4px;
+  }
+  
+  .img24 {
+    display: block;
+    width: 102%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img25 {
+    display: block;
+    width: 97%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  
+  .img22:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img23:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img24:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img25:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .image-container4-img:hover > .zoom-1 {
+    opacity: 1;
+  }
+  
+  
+  
+  .button04 {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .button04:hover {
+    color: white;
+    background-color: #042482;
+  }
+  
+  .word05 {
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+  
+  .explore2 {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .explore3 {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+  
+  .image-container5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .enquire1, .enquire3, .enquire4 {
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-color:#042482;
+    border-bottom-width: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    height: 230px;
+    color: #191919;
+  }
+  
+  
+  .enquire1:hover, .enquire3:hover, .enquire4:hover {
+    top: 100px;
+    height: 230px;
+    background-color: #042482;
+    color: white;
+    transition: all .5s ease-in-out;
+    border-bottom-color:#042482;
+    border-bottom-width: 10px;
+    border-radius: 10px;
+  }
+  
+  .image-container5 img {
+    width: 260px;
+  }
+  
+  .enquire2 {
+    text-align: center;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #f2f5ff;
+    width: 100%;
+    padding: 80px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-container1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 3.5%;
+  }
+  
+  .materr {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+  }
+  
+  .logo1 {
+    width: 150px;
+  }
+  
+  .college {
+    color: #042482;
+    font-family: Mulish;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 350;
+    margin-top: 30px;
+    line-height: 25px;
+  }
+  
+  .get {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .in {
+    color: #042482;
+    font-family: Sinhala Mn;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .phone {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  
+  }
+  
+  .email {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  
+  }
+  
+  .address {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  
+  .junior, .senior, .enquire5, .apply1 {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  
+  
+  .Useful {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .share {
+    color: #042482;
+    font-family: Sinhala Mn;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+  
+  
+  .Connect img {
+    width: 35px;
+  }
+  
+  .powered {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .powered img {
+    width: 150px;
+  }
+  
+  .top {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 14px;
+    margin: 50px 0px 10px 0px;
+    text-align: right;
+  }
+  
+  hr {
+    color: #042482;
+    opacity: 0.4;
+  }
+  
+  .bottom-container1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 60%;
+  }
+  
+  .car {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  
+  .privacy {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  body {
+    width: 100%;
+    background-color:white;
+  }
+  
+  ;:root {
+    font-family: Sinhala MN;
+    font-family: Mulish;
+    font-family: Montserrat;
+    font-family: Avenir;
+  }
+  
+  @font-face {
+    font-family:  Sinhala MN;
+    src: url( Sinhala MN.ttf) format('ttf');
+  
+    font-family:  Mulish;
+    src: url( Mulish.ttf) format('ttf');
+  
+    font-family:  Montserrat;
+    src: url( Montserrat.ttf) format('ttf');
+  
+    font-family:  Avenir;
+    src: url( Avenir.otf) format('otf');
+  }
+  
+  header {
+    height: 70px;
+    width: 100%;
+    background-color: #f2f5ff;
+    padding: 10px 50px 10px 50px;
+    position: fixed;
+    z-index: +2;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-nav {
+    width: 40%;
+  }
+  
+  .logo {
+    width: 150px;
+    display: flex;
+  }
+  
+  .right-nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  
+  .nav0 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav1, .nav2, .nav3, .nav4,.nav5, .nav6 {
+   margin: 15px 8px 15px 8px;
+   color: #042482;
+   font-family: Mulish;
+   font-size: 10px;
+   font-weight: 500;
+  }
+  
+  .nav01 {
+    width: 70px;
+    height: 25px;
+    background-color: #042482;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  
+  .bold {
+    width: 15px;
+  }
+  
+  .nav7 {
+    color: white;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 4px;
+  }
+  
+  main {
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 50px;
+    height: 280px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 200px;
+    right: 0%;
+    z-index: 1;
+  }
+  
+  .search {
+    width: 15px;
+    margin: 15px 5px 15px 5px;
+  }
+  
+  .enquire {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 20px 10px 0px 5px;
+  }
+  
+  .apply {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 60px 10px 0px  5px;
+  }
+  
+  .visit {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 50px 10px 0px 5px;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 90px 50px 40px 50px;
+    background-image: url(img/Rectangle\ 10051.svg), url(img/Rectangle\ 10050.svg);
+    background-position: right, left;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1800px, 550px;
+    background-position-y: 130px, 370px; 
+    background-position-x: 650px, left;
+  }
+  
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px 0px 0px auto;
+  }
+  
+  .word {
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 100;
+    color: #191919;
+    font-family:  Sinhala MN;
+    width: 80%;
+  }
+  
+  
+  .word01 {
+    line-height: 20px;
+    font-size: 14px;
+    color: #191919;
+    font-family: Mulish;
+    width: 80%;
+    margin: 10px 0px 10px 30px
+  }
+  
+  .button {
+    width: 80px;
+    height: 35px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 12px;
+    font-family:  Mulish;
+    padding: 8px 15px 8px 15px;
+    color: #042482;
+    margin: 7px 0px 10px 0px
+  }
+  
+  div.button:hover {
+    background-color: #042482;
+    color: white;
+  
+  }
+  
+  
+  .scroller {
+    display: none;
+  }
+  
+  .right-container {
+    width: 80%;
+    display: flex;
+    margin: auto;
+  
+  }
+  
+  
+  .img03 {
+    width: 400px;
+    display: flex;
+  }
+  
+  
+  
+  .container01 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+    background-image: url(img/Path\ 4695.svg);
+    background-repeat: no-repeat;
+    background-position-x: -450px;
+    background-position-y: 50px;
+    background-size: 870px;
+    
+  }
+  
+  .left-container1 {
+    width: 100%;
+    margin: 100px 0px 0px 100px;
+  }
+  
+  
+  .img05  {
+    width: 300px;
+    display: flex;
+  }
+  
+  .right-container1 {
+    width: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 0px 50px;
+  }
+  
+  
+  .word02 {
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 100;
+    color: #191919;
+    font-family:  Sinhala MN;
+    width: 100%;
+  }
+  
+  
+  .word03 {
+    line-height: 20px;
+    font-size: 12px;
+    color: #191919;
+    font-family: Mulish;
+    width: 80%;
+    margin: 10px 0px 10px 30px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .button01 {
+    width: 95px;
+    height: 35px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 12px;
+    font-family:  Mulish;
+    padding: 8px 15px 8px 15px;
+    color: #042482;
+  }
+  
+  div.button01:hover {
+    background-color: #042482;
+    color: white;
+  }
+  
+  
+  
+  .container02 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 50px 50px 0px 50px;
+    background-image: url(img/Path\ 4695.svg) ,url(img/Rectangle\ 10055.svg);
+    background-repeat: no-repeat ,no-repeat;
+    background-position: -475px, right;
+    background-size: 880px, 350px;
+    background-position-y: -420px ,200px;
+  }
+  
+  .left-container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 160px 0px 0px auto;
+  }
+  
+  .mission {
+    font-family: Mulish;
+    font-size: 14px;
+    color: #042482;
+    letter-spacing: 5px;
+    margin-top: 5px;
+  }
+  
+  .mission01 {
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    color: #191919;
+    line-height: 30px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .mission02 {
+    font-family: Mulish;
+    font-size: 12px;
+    color: #191919;
+    line-height: 20px;
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  
+  .button02 {
+    width: 95px;
+    height: 35px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 12px;
+    font-family:  Mulish;
+    padding: 8px 15px 8px 15px;
+    color: #042482;
+    margin-top: 30px;
+  }
+  
+  div.button02:hover {
+    background-color: #042482;
+    color: white;
+  }
+  
+  
+  .right-container2 {
+    width: 1500px;
+    margin-top: 180px;
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    left: 100px;
+    scrollbar-width: none;
+  }
+  
+  .scrollerrr {
+    display: flex;
+  }
+  
+  
+  .boxsc1, .boxsc2, .boxsc3, .boxsc4, .boxsc5, .boxsc6 {
+    color:#191919;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    font-family:  Sinhala Mn;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 8%;
+    bottom: 15%;
+  }
+  
+  .img07, .img08, .img09, .img10, .img11, .img12 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 380px;
+  }
+  
+  .arrow-container {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    right: 20%;
+    top: 310px;
+  }
+  
+  .container03 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 70px 50px 0px 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top-container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .news {
+    color: #042482;
+    font-size: 14px;
+    font-family: Montserrat;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+  }
+  
+  .news1 {
+    color: #191919;
+    font-size: 24px;
+    font-family: Sinhala Mn;
+    font-weight: 200;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+  }
+  
+  .news2 {
+    color: #191919;
+    font-size: 12px;
+    font-family: Montserrat;
+  }
+  
+  .bottom-container {
+    width: 800px;
+    margin-top: 50px;
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+  
+  .sliderrr {
+    display: flex;
+  }
+  
+  .boxsc7, .boxsc8, .boxsc9, .boxsc10 {
+    color:#191919;
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    font-family:  Sinhala Mn;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 5%;
+    bottom: 30%;
+  }
+  
+  .event {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 14px;
+    position: relative;
+    left: 8%;
+    bottom: 65%;
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .date {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    position: relative;
+    left: 8%;
+    bottom: 35%;
+  }
+  
+  .read-more {
+    color: #191919;
+    text-decoration: underline;
+    font-family: Montserrat;
+    font-size: 12px;
+    position: relative;
+    left: 70%;
+    bottom: 39%;
+  }
+  
+  .img13, .img14, .img15, .img16 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+  }
+  
+  .arrow-container1 {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    bottom: 100px;
+  }
+  
+  .button03 {
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 13px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    text-align: center;
+  }
+  
+  .button03:hover {
+    color: white;
+    background-color: #042482;
+  }
+  
+  .container04 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 50px 0px 50px;
+    background-image: url(img/Path\ 4696\ 2.svg);
+    background-size: 450px;
+    background-repeat:no-repeat;
+    background-position: 800px;
+  }
+  
+  .left-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+  }
+  
+  .appostrophe {
+    width: 20px;
+    margin: 15px 0px 20px 0px;
+  }
+  
+  .voice {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .about {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+  
+  .impressive {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    width: 70%;
+    text-align: center;
+  }
+  
+  .impressive1 {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .name {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    width: 70%;
+    text-align: center;
+    word-spacing: 3px;
+  }
+  
+  .arrow-container2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  .right-container3 {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    margin-top: 70px;
+  }
+  
+  .image-container2 {
+    display: flex;
+    position: absolute;
+  }
+  
+  .img17 {
+    width: 350px;
+    display: flex;
+  }
+  
+  .img18 {
+    width: 300px;
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+  }
+  
+  
+  
+  .container05 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 200px 50px 200px 50px;
+    background-image: url(img/Path\ 4695.svg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-y: 600px;
+    background-position-x: -400px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .word04 {
+    margin-bottom: 30px;
+    align-self: flex-start;
+    justify-self: left;
+  }
+  
+  .explore {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .explore1 {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    text-align: left;
+  }
+  
+  .image-container3  {
+    width: 100%;
+    display: flex;
+  }
+  
+  .image-container3-img, .image-container4-img {
+    position: relative;
+  }
+  
+  .img19 {
+    display: block;
+    width: 103%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img20 {
+    display: block;
+    width: 102%;
+    height: 22rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img21 {
+    display: block;
+    width: 97.5%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img19:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img20:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img21:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .zoom-1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    align-items: center;
+  }
+  
+  .image-container3-img:hover > .zoom-1 {
+    opacity: 1;
+  }
+  
+  .image-container4 {
+    width: 100%;
+    display: flex;
+    margin-top: -14px;
+  }
+  
+  .img22  {
+    display: block;
+    width: 102%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img23 {
+    display: block;
+    width: 102%;
+    height: 15.8rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+    margin-top: 4px;
+  }
+  
+  .img24 {
+    display: block;
+    width: 102%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img25 {
+    display: block;
+    width: 97%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  
+  .img22:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img23:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img24:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img25:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .image-container4-img:hover > .zoom-1 {
+    opacity: 1;
+  }
+  
+  
+  
+  .button04 {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .button04:hover {
+    color: white;
+    background-color: #042482;
+  }
+  
+  .word05 {
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+  
+  .explore2 {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .explore3 {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+  
+  .image-container5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .enquire1, .enquire3, .enquire4 {
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-color:#042482;
+    border-bottom-width: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    height: 190px;
+    color: #191919;
+  }
+  
+  
+  .enquire1:hover, .enquire3:hover, .enquire4:hover {
+    top: 100px;
+    height: 190px;
+    background-color: #042482;
+    color: white;
+    transition: all .5s ease-in-out;
+    border-bottom-color:#042482;
+    border-bottom-width: 10px;
+    border-radius: 10px;
+  }
+  
+  .image-container5 img {
+    width: 200px;
+  }
+  
+  .enquire2 {
+    text-align: center;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #f2f5ff;
+    width: 100%;
+    padding: 40px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-container1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .materr {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    width: 100%;
+  }
+  
+  .logo1 {
+    width: 150px;
+  }
+  
+  .college {
+    color: #042482;
+    font-family: Mulish;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 350;
+    margin-top: 30px;
+    line-height: 20px;
+  }
+  
+  .get {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .in {
+    color: #042482;
+    font-family: Sinhala Mn;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .phone {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  
+  }
+  
+  .email {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  
+  }
+  
+  .address {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 50px;
+  }
+  
+  .junior, .senior, .enquire5, .apply1 {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  
+  
+  .Useful {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .share {
+    color: #042482;
+    font-family: Sinhala Mn;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  .Connect img {
+    width: 35px;
+  }
+  
+  .powered {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .powered img {
+    width: 150px;
+  }
+  
+  .top {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 14px;
+    margin: 0px 0px 10px 0px;
+    text-align: right;
+  }
+  
+  hr {
+    color: #042482;
+    opacity: 0.4;
+  }
+  
+  .bottom-container1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 50%;
+  }
+  
+  .car {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  
+  .privacy {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    width: 100%;
+    background-color:white;
+  }
+  
+  ;:root {
+    font-family: Sinhala MN;
+    font-family: Mulish;
+    font-family: Montserrat;
+    font-family: Avenir;
+  }
+  
+  @font-face {
+    font-family:  Sinhala MN;
+    src: url( Sinhala MN.ttf) format('ttf');
+  
+    font-family:  Mulish;
+    src: url( Mulish.ttf) format('ttf');
+  
+    font-family:  Montserrat;
+    src: url( Montserrat.ttf) format('ttf');
+  
+    font-family:  Avenir;
+    src: url( Avenir.otf) format('otf');
+  }
+  
+  header {
+    height: 70px;
+    width: 100%;
+    background-color: #f2f5ff;
+    padding: 10px 50px 10px 50px;
+    position: fixed;
+    z-index: +2;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-nav {
+    width: 100%;
+  }
+  
+  .logo {
+    width: 150px;
+    display: flex;
+  }
+  
+  .right-nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    float: right;
+    position: relative;
+  }
+  
+  
+  .nav0 {
+    display: none;
+  
+  }
+  
+  .nav1, .nav2, .nav3, .nav4,.nav5, .nav6 {
+    display: none;
+  }
+  
+  .nav01 {
+    width: 70px;
+    height: 25px;
+    background-color: #042482;
+    border-radius: 50px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .bold {
+    width: 15px;
+  }
+  
+  .nav7 {
+    color: white;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 4px;
+  }
+  
+  main {
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 50px;
+    height: 280px;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 200px;
+    right: 0%;
+    z-index: 1;
+  }
+  
+  .search {
+    width: 15px;
+    margin: 15px 5px 15px 5px;
+  }
+  
+  .enquire {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 20px 10px 0px 5px;
+  }
+  
+  .apply {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 60px 10px 0px  5px;
+  }
+  
+  .visit {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    transform: rotate(90deg);
+    margin: 50px 10px 0px 5px;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 90px 0px 40px 0px;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 0px 0px auto;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .word {
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 100;
+    color: #191919;
+    font-family:  Sinhala MN;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  .word01 {
+    line-height: 20px;
+    font-size: 14px;
+    color: #191919;
+    font-family: Mulish;
+    width: 90%;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+  }
+  
+  .button {
+    width: 80px;
+    height: 35px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 12px;
+    font-family:  Mulish;
+    padding: 8px 15px 8px 15px;
+    color: #042482;
+    margin: 7px 0px 10px 0px
+  }
+  
+  div.button:hover {
+    background-color: #042482;
+    color: white;
+  
+  }
+  
+  
+  .scroller {
+    display: none;
+  }
+  
+  .right-container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .img03 {
+    width: 300px;
+    display: flex;
+  }
+  
+  
+  
+  .container01 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(img/Path\ 4695.svg);
+    background-repeat: no-repeat;
+    background-position-x: -450px;
+    background-position-y: 50px;
+    background-size: 670px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .left-container1 {
+    width: 100%;
+  }
+  
+  
+  .img05  {
+    width: 300px;
+    display: flex;
+  }
+  
+  .right-container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 0px;
+  }
+  
+  
+  .word02 {
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 100;
+    color: #191919;
+    font-family:  Sinhala MN;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  
+  .word03 {
+    line-height: 20px;
+    font-size: 12px;
+    color: #191919;
+    font-family: Mulish;
+    width: 80%;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+  }
+  
+  
+  .button01 {
+    width: 95px;
+    height: 35px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 12px;
+    font-family:  Mulish;
+    padding: 8px 15px 8px 15px;
+    color: #042482;
+  }
+  
+  div.button01:hover {
+    background-color: #042482;
+    color: white;
+  }
+  
+  
+  
+  .container02 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0px;
+    background-image: url(img/Rectangle\ 10055.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 350px;
+    background-position-y: 200px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .left-container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 160px 0px 0px 0px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .mission {
+    font-family: Mulish;
+    font-size: 14px;
+    color: #042482;
+    letter-spacing: 5px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .mission01 {
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    color: #191919;
+    line-height: 30px;
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+
+  }
+  
+  .mission02 {
+    font-family: Mulish;
+    font-size: 12px;
+    color: #191919;
+    line-height: 20px;
+    width: 90%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .button02 {
+    width: 95px;
+    height: 35px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 12px;
+    font-family:  Mulish;
+    padding: 8px 15px 8px 15px;
+    color: #042482;
+    margin-top: 30px;
+  }
+  
+  div.button02:hover {
+    background-color: #042482;
+    color: white;
+  }
+  
+  
+  .right-container2 {
+    width: 400px;
+    overflow: auto;
+    white-space: nowrap;
+    position: relative;
+    scrollbar-width: none;
+    margin: 0px 200px 0px 0px;
+  }
+  
+  .scrollerrr {
+    display: flex;
+  }
+  
+  
+  .boxsc1, .boxsc2, .boxsc3, .boxsc4, .boxsc5, .boxsc6 {
+    color:#191919;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    font-family:  Sinhala Mn;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    left: 8%;
+    bottom: 27%;
+  }
+  
+  .img07, .img08, .img09, .img10, .img11, .img12 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+  }
+  
+  .arrow-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20px;
+    margin: 0px;
+  }
+  
+  .container03 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 70px 50px 0px 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .top-container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .news {
+    color: #042482;
+    font-size: 14px;
+    font-family: Montserrat;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+  }
+  
+  .news1 {
+    color: #191919;
+    font-size: 24px;
+    font-family: Sinhala Mn;
+    font-weight: 200;
+    word-spacing: 5px;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+  }
+  
+  .news2 {
+    color: #191919;
+    font-size: 12px;
+    font-family: Montserrat;
+  }
+  
+  .bottom-container {
+    width: 350px;
+    margin-top: 50px;
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+  
+  .sliderrr {
+    display: flex;
+  }
+  
+  .boxsc7, .boxsc8, .boxsc9, .boxsc10 {
+    color:#191919;
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    font-family:  Sinhala Mn;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    position: relative;
+    left: 5%;
+    bottom: 30%;
+  }
+  
+  .event {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 14px;
+    position: relative;
+    left: 8%;
+    bottom: 65%;
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .date {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    position: relative;
+    left: 8%;
+    bottom: 35%;
+  }
+  
+  .read-more {
+    color: #191919;
+    text-decoration: underline;
+    font-family: Montserrat;
+    font-size: 12px;
+    position: relative;
+    left: 70%;
+    bottom: 39%;
+  }
+  
+  .img13, .img14, .img15, .img16 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+  }
+  
+  .arrow-container1 {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    position: relative;
+    bottom: 100px;
+  }
+  
+  .button03 {
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 13px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    text-align: center;
+  }
+  
+  .button03:hover {
+    color: white;
+    background-color: #042482;
+  }
+  
+  .container04 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 50px 200px 50px;
+    background-image: url(img/Path\ 4696\ 2.svg);
+    background-size: 450px;
+    background-repeat:no-repeat;
+    background-position: 800px;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .left-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+  }
+  
+  .appostrophe {
+    width: 20px;
+    margin: 15px 0px 20px 0px;
+  }
+  
+  .voice {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .about {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+  
+  .impressive {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    width: 70%;
+    text-align: center;
+  }
+  
+  .impressive1 {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .name {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    width: 70%;
+    text-align: center;
+    word-spacing: 3px;
+  }
+  
+  .arrow-container2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  .right-container3 {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    margin-top: 70px;
+  }
+  
+  .image-container2 {
+    display: flex;
+    position: absolute;
+  }
+  
+  .img17 {
+    width: 350px;
+    display: flex;
+  }
+  
+  .img18 {
+    width: 300px;
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+  }
+  
+  
+  
+  .container05 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 200px 50px 200px 50px;
+    background-image: url(img/Path\ 4695.svg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-y: 600px;
+    background-position-x: -400px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .word04 {
+    margin-bottom: 30px;
+    align-self: flex-start;
+    justify-self: left;
+  }
+  
+  .explore {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .explore1 {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    text-align: left;
+  }
+  
+  .image-container3  {
+    width: 100%;
+    display: flex;
+  }
+  
+  .image-container3-img, .image-container4-img {
+    position: relative;
+  }
+  
+  .img19 {
+    display: block;
+    width: 103%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img20 {
+    display: block;
+    width: 102%;
+    height: 22rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img21 {
+    display: block;
+    width: 97.5%;
+    height: 22rem;
+    aspect-ratio: auto;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img19:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img20:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img21:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .zoom-1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    align-items: center;
+  }
+  
+  .image-container3-img:hover > .zoom-1 {
+    opacity: 1;
+  }
+  
+  .image-container4 {
+    width: 100%;
+    display: flex;
+    margin-top: -14px;
+  }
+  
+  .img22  {
+    display: block;
+    width: 102%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img23 {
+    display: block;
+    width: 102%;
+    height: 15.8rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+    margin-top: 4px;
+  }
+  
+  .img24 {
+    display: block;
+    width: 102%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  .img25 {
+    display: block;
+    width: 97%;
+    height: 16.52rem;
+    aspect-ratio: auto;
+    border-bottom-left-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms ease-in-out;
+  }
+  
+  
+  .img22:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img23:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img24:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .img25:hover {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+  }
+  
+  .image-container4-img:hover > .zoom-1 {
+    opacity: 1;
+  }
+  
+  
+  
+  .button04 {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #042482;
+    font-size: 16px;
+    font-family:  Mulish;
+    padding: 8px 17px 8px 17px;
+    color: #042482;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .button04:hover {
+    color: white;
+    background-color: #042482;
+  }
+  
+  .word05 {
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+  
+  .explore2 {
+    color: #042482;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .explore3 {
+    color: #191919;
+    font-family: Sinhala Mn;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+  
+  .image-container5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .enquire1, .enquire3, .enquire4 {
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-color:#042482;
+    border-bottom-width: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    height: 230px;
+    color: #191919;
+    width: 300px;
+  }
+  
+  
+  .enquire1:hover, .enquire3:hover, .enquire4:hover {
+    top: 100px;
+    height: 230px;
+    background-color: #042482;
+    color: white;
+    transition: all .5s ease-in-out;
+    border-bottom-color:#042482;
+    border-bottom-width: 10px;
+    border-radius: 10px;
+  }
+  
+  .image-container5 img {
+    width: 300px;
+  }
+  
+  .enquire2 {
+    text-align: center;
+    font-family: Sinhala Mn;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    padding: 2.5px;
+  }
+  
+  footer {
+    background-color: #f2f5ff;
+    width: 100%;
+    padding: 40px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-container1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .materr {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    width: 100%;
+  }
+  
+  .logo1 {
+    width: 150px;
+  }
+  
+  .college {
+    color: #042482;
+    font-family: Mulish;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 350;
+    margin-top: 30px;
+    line-height: 20px;
+  }
+  
+  .get {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .in {
+    color: #042482;
+    font-family: Sinhala Mn;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .phone {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  
+  }
+  
+  .email {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  
+  }
+  
+  .address {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 50px;
+  }
+  
+  .junior, .senior, .enquire5, .apply1 {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  
+  
+  .Useful {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .share {
+    color: #042482;
+    font-family: Sinhala Mn;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  .Connect img {
+    width: 35px;
+  }
+  
+  .powered {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .powered img {
+    width: 150px;
+  }
+  
+  .top {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 14px;
+    margin: 0px 0px 10px 0px;
+    text-align: right;
+  }
+  
+  hr {
+    color: #042482;
+    opacity: 0.4;
+  }
+  
+  .bottom-container1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .car {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .privacy {
+    color: #042482;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+  }
 }

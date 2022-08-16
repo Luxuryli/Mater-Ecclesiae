@@ -6831,7 +6831,7 @@ hr {
   
   
   .button01 {
-    width: 95px;
+    width: 90px;
     height: 35px;
     border-radius: 50px;
     border-width: 1px;
@@ -6839,7 +6839,7 @@ hr {
     border-color: #042482;
     font-size: 12px;
     font-family:  Mulish;
-    padding: 8px 15px 8px 15px;
+    padding: 8px 15px 8px 10px;
     color: #042482;
   }
   
@@ -6907,7 +6907,7 @@ hr {
   }
   
   .button02 {
-    width: 105px;
+    width: 100px;
     height: 35px;
     border-radius: 50px;
     border-width: 1px;
@@ -6915,7 +6915,7 @@ hr {
     border-color: #042482;
     font-size: 14px;
     font-family:  Mulish;
-    padding: 8px 15px 8px 15px;
+    padding: 6px 13px 6px 13px;
     color: #042482;
     margin-top: 10px;
   }
@@ -6927,12 +6927,12 @@ hr {
   
   
   .right-container2 {
-    width: 300px;
+    width: 250px;
     overflow: auto;
     white-space: nowrap;
     position: relative;
     scrollbar-width: none;
-    margin: 10px 200px 0px 0px;
+    margin: 20px 300px 0px 0px;
   }
   
   .scrollerrr {
@@ -6967,6 +6967,7 @@ hr {
     right: 0%;
     top: 0%;
   }
+
 
 
 

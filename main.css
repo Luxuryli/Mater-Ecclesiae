@@ -2275,7 +2275,7 @@ hr {
   }
   
   .left-nav {
-    width: 80%;
+    width: 90%;
   }
   
   .logo {
@@ -2296,7 +2296,7 @@ hr {
   }
   
   .nav1, .nav2, .nav3, .nav4,.nav5, .nav6 {
-   margin: 15px 13px 15px 13px;
+   margin: 15px 8px 15px 8px;
    color: #042482;
    font-family: Mulish;
    font-size: 10px;
@@ -2384,8 +2384,8 @@ hr {
     background-position: right, left;
     background-repeat: no-repeat, no-repeat;
     background-size: 2000px, 550px;
-    background-position-y: 130px, 420px; 
-    background-position-x: 650px, left;
+    background-position-y: 130px, 400px; 
+    background-position-x: 600px, left;
   }
   
   .left-container {
@@ -2439,7 +2439,7 @@ hr {
     display: flex;
     flex-direction: row;
     margin-top: 80px;
-    margin-left: 30px;
+    margin-left: 70px;
   }
   
   
@@ -2456,7 +2456,7 @@ hr {
   }
   
   .circle1 {
-    width: 50px;
+    width: 40px;
     height: 10px;
     background-color: #042482;
     border-radius: 50px;
@@ -2519,11 +2519,11 @@ hr {
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 0px 50px 0px 50px;
+    padding: 50px 50px 0px 50px;
     background-image: url(img/Path\ 4695.svg);
     background-repeat: no-repeat;
     background-position-x: -450px;
-    background-position-y: 300px;
+    background-position-y: 200px;
     background-size: 900px;
     
   }
@@ -3391,7 +3391,7 @@ hr {
   }
   
   .left-nav {
-    width: 68%;
+    width: 50%;
   }
   
   .logo {
@@ -3403,6 +3403,7 @@ hr {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-left: auto;
   }
   
   
@@ -3412,7 +3413,7 @@ hr {
   }
   
   .nav1, .nav2, .nav3, .nav4,.nav5, .nav6 {
-   margin: 15px 10px 15px 10px;
+   margin: 15px 13px 15px 13px;
    color: #042482;
    font-family: Mulish;
    font-size: 10px;
@@ -3427,7 +3428,7 @@ hr {
     padding: 5px 5px 5px 5px;
     display: flex;
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: 20px;
   }
   
   .bold {
@@ -4506,7 +4507,7 @@ hr {
   }
   
   .left-nav {
-    width: 62%;
+    width: 40%;
   }
   
   .logo {
@@ -4518,6 +4519,7 @@ hr {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-left: 30px;
   }
   
   
@@ -4562,46 +4564,7 @@ hr {
   }
   
   .sidebar {
-    width: 50px;
-    height: 280px;
-    background-color: white;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 200px;
-    right: 0%;
-    z-index: 1;
-  }
-  
-  .search {
-    width: 15px;
-    margin: 15px 5px 15px 5px;
-  }
-  
-  .enquire {
-    color: #042482;
-    font-family: Montserrat;
-    font-size: 12px;
-    transform: rotate(90deg);
-    margin: 20px 10px 0px 5px;
-  }
-  
-  .apply {
-    color: #042482;
-    font-family: Montserrat;
-    font-size: 12px;
-    transform: rotate(90deg);
-    margin: 60px 10px 0px  5px;
-  }
-  
-  .visit {
-    color: #042482;
-    font-family: Montserrat;
-    font-size: 12px;
-    transform: rotate(90deg);
-    margin: 50px 10px 0px 5px;
+    display: none;
   }
   
   
@@ -4614,7 +4577,7 @@ hr {
     background-position: right, left;
     background-repeat: no-repeat, no-repeat;
     background-size: 1800px, 550px;
-    background-position-y: 130px, 370px; 
+    background-position-y: 130px, 400px; 
     background-position-x: 650px, left;
   }
   
@@ -4636,8 +4599,8 @@ hr {
   
   
   .word01 {
-    line-height: 20px;
-    font-size: 14px;
+    line-height: 25px;
+    font-size: 16px;
     color: #191919;
     font-family: Mulish;
     width: 80%;
@@ -4655,7 +4618,7 @@ hr {
     font-family:  Mulish;
     padding: 8px 17px 8px 17px;
     color: #042482;
-    margin: 20px 0px 10px 0px
+    margin: 10px 0px 10px 0px
   }
   
   div.button:hover {
@@ -4827,20 +4790,20 @@ hr {
     background-image: url(img/Path\ 4695.svg) ,url(img/Rectangle\ 10055.svg);
     background-repeat: no-repeat ,no-repeat;
     background-position: -475px, right;
-    background-size: 880px, 450px;
-    background-position-y: -420px ,200px;
+    background-size: 880px, 500px;
+    background-position-y: -420px ,300px;
   }
   
   .left-container2 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 160px 0px 0px auto;
+    margin: 180px 0px 0px auto;
   }
   
   .mission {
     font-family: Mulish;
-    font-size: 14px;
+    font-size: 16px;
     color: #042482;
     letter-spacing: 5px;
     margin-top: 5px;
@@ -4852,14 +4815,14 @@ hr {
     color: #191919;
     line-height: 38px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   
   .mission02 {
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 16px;
     color: #191919;
-    line-height: 20px;
+    line-height: 25px;
     width: 100%;
     margin-left: 25px;
     margin-top: 30px;
@@ -4886,7 +4849,7 @@ hr {
   
   
   .right-container2 {
-    width: 2000px;
+    width: 2500px;
     margin-top: 200px;
     overflow: auto;
     white-space: nowrap;
@@ -4903,22 +4866,22 @@ hr {
   .boxsc1, .boxsc2, .boxsc3, .boxsc4, .boxsc5, .boxsc6 {
     color:#191919;
     text-align: center;
-    padding: 10px;
-    font-size: 20px;
+    padding: 15px;
+    font-size: 18px;
     background-color: white;
     font-family:  Sinhala Mn;
-    width: 350px;
+    width: 300px;
     height: 50px;
     border-radius: 5px;
     position: relative;
-    left: 8%;
-    bottom: 15%;
+    left: 5%;
+    bottom: 20%;
   }
   
   .img07, .img08, .img09, .img10, .img11, .img12 {
     border-radius: 10px;
     padding: 10px;
-    width: 420px;
+    width: 340px;
   }
   
   .arrow-container {
@@ -4927,7 +4890,7 @@ hr {
     float: right;
     position: relative;
     right: 20%;
-    top: 310px;
+    top: 270px;
   }
   
   .container03 {
@@ -5646,7 +5609,7 @@ hr {
    margin: 15px 15px 15px 15px;
    color: #042482;
    font-family: Mulish;
-   font-size: 10px;
+   font-size: 14px;
    font-weight: 500;
   }
 
@@ -5682,48 +5645,8 @@ hr {
   }
   
   .sidebar {
-    width: 50px;
-    height: 280px;
-    background-color: white;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 200px;
-    right: 0%;
-    z-index: 1;
+    display: none;
   }
-  
-  .search {
-    width: 15px;
-    margin: 15px 5px 15px 5px;
-  }
-  
-  .enquire {
-    color: #042482;
-    font-family: Montserrat;
-    font-size: 12px;
-    transform: rotate(90deg);
-    margin: 20px 10px 0px 5px;
-  }
-  
-  .apply {
-    color: #042482;
-    font-family: Montserrat;
-    font-size: 12px;
-    transform: rotate(90deg);
-    margin: 60px 10px 0px  5px;
-  }
-  
-  .visit {
-    color: #042482;
-    font-family: Montserrat;
-    font-size: 12px;
-    transform: rotate(90deg);
-    margin: 50px 10px 0px 5px;
-  }
-  
   
   .container {
     display: flex;
@@ -5733,9 +5656,9 @@ hr {
     background-image: url(img/Rectangle\ 10051.svg), url(img/Rectangle\ 10050.svg);
     background-position: right, left;
     background-repeat: no-repeat, no-repeat;
-    background-size: 1800px, 550px;
-    background-position-y: 130px, 370px; 
-    background-position-x: 650px, left;
+    background-size: 2000px, 400px;
+    background-position-y: 130px, 240px; 
+    background-position-x: 450px, left;
   }
   
   .left-container {
@@ -5765,15 +5688,15 @@ hr {
   }
   
   .button {
-    width: 80px;
+    width: 90px;
     height: 35px;
     border-radius: 50px;
     border-width: 1px;
     border-style: solid;
     border-color: #042482;
-    font-size: 12px;
+    font-size: 14px;
     font-family:  Mulish;
-    padding: 8px 15px 8px 15px;
+    padding: 6px 15px 6px 15px;
     color: #042482;
     margin: 7px 0px 10px 0px
   }
@@ -5819,7 +5742,7 @@ hr {
   
   .left-container1 {
     width: 100%;
-    margin: 100px 0px 0px 100px;
+    margin: 100px 0px 0px 40px;
   }
   
   
@@ -5830,7 +5753,6 @@ hr {
   
   .right-container1 {
     width: 100%;
-    display: flex;
     display: flex;
     flex-direction: column;
     margin: 100px 0px 0px 50px;
@@ -5849,25 +5771,25 @@ hr {
   
   .word03 {
     line-height: 20px;
-    font-size: 12px;
+    font-size: 14px;
     color: #191919;
     font-family: Mulish;
-    width: 80%;
+    width: 100%;
     margin: 10px 0px 10px 30px;
     margin-bottom: 20px;
   }
   
   
   .button01 {
-    width: 95px;
+    width: 110px;
     height: 35px;
     border-radius: 50px;
     border-width: 1px;
     border-style: solid;
     border-color: #042482;
-    font-size: 12px;
+    font-size: 14px;
     font-family:  Mulish;
-    padding: 8px 15px 8px 15px;
+    padding: 6px 15px 6px 15px;
     color: #042482;
   }
   
@@ -5886,8 +5808,8 @@ hr {
     background-image: url(img/Path\ 4695.svg) ,url(img/Rectangle\ 10055.svg);
     background-repeat: no-repeat ,no-repeat;
     background-position: -475px, right;
-    background-size: 880px, 350px;
-    background-position-y: -420px ,200px;
+    background-size: 880px, 500px;
+    background-position-y: -420px ,250px;
   }
   
   .left-container2 {
@@ -5911,12 +5833,12 @@ hr {
     color: #191919;
     line-height: 30px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 35px;
   }
   
   .mission02 {
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     color: #191919;
     line-height: 20px;
     width: 100%;
@@ -5925,15 +5847,15 @@ hr {
   }
   
   .button02 {
-    width: 95px;
+    width: 110px;
     height: 35px;
     border-radius: 50px;
     border-width: 1px;
     border-style: solid;
     border-color: #042482;
-    font-size: 12px;
+    font-size: 14px;
     font-family:  Mulish;
-    padding: 8px 15px 8px 15px;
+    padding: 6px 15px 8px 17px;
     color: #042482;
     margin-top: 30px;
   }
@@ -5945,12 +5867,12 @@ hr {
   
   
   .right-container2 {
-    width: 1500px;
-    margin-top: 180px;
+    width: 1800px;
+    margin-top: 230px;
     overflow: auto;
     white-space: nowrap;
     position: relative;
-    left: 100px;
+    left: 160px;
     scrollbar-width: none;
   }
   
@@ -5962,22 +5884,22 @@ hr {
   .boxsc1, .boxsc2, .boxsc3, .boxsc4, .boxsc5, .boxsc6 {
     color:#191919;
     text-align: center;
-    padding: 10px;
-    font-size: 20px;
+    padding: 8px;
+    font-size: 14px;
     background-color: white;
     font-family:  Sinhala Mn;
-    width: 350px;
-    height: 50px;
+    width: 220px;
+    height: 30px;
     border-radius: 5px;
     position: relative;
-    left: 8%;
-    bottom: 15%;
+    left: 6%;
+    bottom: 20%;
   }
   
   .img07, .img08, .img09, .img10, .img11, .img12 {
     border-radius: 10px;
     padding: 10px;
-    width: 380px;
+    width: 250px;
   }
   
   .arrow-container {
@@ -5986,7 +5908,7 @@ hr {
     float: right;
     position: relative;
     right: 20%;
-    top: 310px;
+    top: 250px;
   }
   
   .container03 {
@@ -6024,7 +5946,7 @@ hr {
   
   .news2 {
     color: #191919;
-    font-size: 12px;
+    font-size: 14px;
     font-family: Montserrat;
   }
   
@@ -6046,7 +5968,7 @@ hr {
     font-size: 14px;
     background-color: white;
     font-family:  Sinhala Mn;
-    width: 300px;
+    width: 315px;
     height: 50px;
     border-radius: 5px;
     position: relative;
@@ -6071,7 +5993,7 @@ hr {
   .date {
     color: #191919;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
     position: relative;
     left: 8%;
     bottom: 35%;
@@ -6081,7 +6003,7 @@ hr {
     color: #191919;
     text-decoration: underline;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
     position: relative;
     left: 70%;
     bottom: 39%;
@@ -6108,7 +6030,7 @@ hr {
     border-width: 1px;
     border-style: solid;
     border-color: #042482;
-    font-size: 13px;
+    font-size: 14px;
     font-family:  Mulish;
     padding: 8px 17px 8px 17px;
     color: #042482;
@@ -6148,7 +6070,7 @@ hr {
   .voice {
     color: #042482;
     font-family: Montserrat;
-    font-size: 10px;
+    font-size: 14px;
     letter-spacing: 1.5px;
     text-align: center;
     margin-bottom: 10px;
@@ -6165,7 +6087,7 @@ hr {
   .impressive {
     color: #191919;
     font-family: Montserrat;
-    font-size: 10px;
+    font-size: 14px;
     letter-spacing: 1.5px;
     width: 70%;
     text-align: center;
@@ -6174,7 +6096,7 @@ hr {
   .impressive1 {
     color: #191919;
     font-family: Montserrat;
-    font-size: 10px;
+    font-size: 14px;
     letter-spacing: 1.5px;
     width: 70%;
     text-align: center;
@@ -6247,7 +6169,7 @@ hr {
   .explore {
     color: #042482;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1.5px;
     text-align: left;
     margin-bottom: 10px;
@@ -6415,7 +6337,7 @@ hr {
     border-width: 1px;
     border-style: solid;
     border-color: #042482;
-    font-size: 16px;
+    font-size: 14px;
     font-family:  Mulish;
     padding: 8px 17px 8px 17px;
     color: #042482;
@@ -6519,7 +6441,7 @@ hr {
     color: #042482;
     font-family: Mulish;
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 350;
     margin-top: 30px;
     line-height: 20px;
@@ -6535,7 +6457,7 @@ hr {
   .in {
     color: #042482;
     font-family: Sinhala Mn;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     margin-bottom: 10px;
   }
@@ -6543,7 +6465,7 @@ hr {
   .phone {
     color: #042482;
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     margin-bottom: 20px;
   
@@ -6552,7 +6474,7 @@ hr {
   .email {
     color: #042482;
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     margin-bottom: 20px;
   
@@ -6561,7 +6483,7 @@ hr {
   .address {
     color: #042482;
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     margin-bottom: 50px;
   }
@@ -6569,7 +6491,7 @@ hr {
   .junior, .senior, .enquire5, .apply1 {
     color: #042482;
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     margin-bottom: 5px;
   }
@@ -6584,7 +6506,7 @@ hr {
   .share {
     color: #042482;
     font-family: Sinhala Mn;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -6619,23 +6541,24 @@ hr {
   
   .bottom-container1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 10px;
-    gap: 50%;
   }
   
   .car {
     color: #042482;
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
+    text-align: center;
   }
   
   .privacy {
     color: #042482;
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
+    text-align: center;
   }
 }
 
@@ -6732,17 +6655,7 @@ hr {
   }
   
   .sidebar {
-    width: 50px;
-    height: 280px;
-    background-color: white;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 200px;
-    right: 0%;
-    z-index: 1;
+    display: none;
   }
   
   .search {
@@ -6753,7 +6666,7 @@ hr {
   .enquire {
     color: #042482;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
     transform: rotate(90deg);
     margin: 20px 10px 0px 5px;
   }
@@ -6761,7 +6674,7 @@ hr {
   .apply {
     color: #042482;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
     transform: rotate(90deg);
     margin: 60px 10px 0px  5px;
   }
@@ -6769,7 +6682,7 @@ hr {
   .visit {
     color: #042482;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
     transform: rotate(90deg);
     margin: 50px 10px 0px 5px;
   }
@@ -6815,15 +6728,15 @@ hr {
   }
   
   .button {
-    width: 80px;
+    width: 90px;
     height: 35px;
     border-radius: 50px;
     border-width: 1px;
     border-style: solid;
     border-color: #042482;
-    font-size: 12px;
+    font-size: 14px;
     font-family:  Mulish;
-    padding: 8px 15px 8px 15px;
+    padding: 7px 18px 5px 18px;
     color: #042482;
     margin: 7px 0px 10px 0px
   }
@@ -6831,7 +6744,6 @@ hr {
   div.button:hover {
     background-color: #042482;
     color: white;
-  
   }
   
   
@@ -6909,7 +6821,7 @@ hr {
   
   .word03 {
     line-height: 20px;
-    font-size: 12px;
+    font-size: 14px;
     color: #191919;
     font-family: Mulish;
     width: 80%;
@@ -6947,7 +6859,7 @@ hr {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 500px;
-    background-position-y: 240px;
+    background-position-y: 260px;
     align-items: center;
     justify-items: center;
     margin-top: 50px;
@@ -6986,22 +6898,22 @@ hr {
   
   .mission02 {
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     color: #191919;
     line-height: 20px;
-    width: 90%;
+    width: 80%;
     margin-top: 20px;
     text-align: center;
   }
   
   .button02 {
-    width: 95px;
+    width: 105px;
     height: 35px;
     border-radius: 50px;
     border-width: 1px;
     border-style: solid;
     border-color: #042482;
-    font-size: 12px;
+    font-size: 14px;
     font-family:  Mulish;
     padding: 8px 15px 8px 15px;
     color: #042482;
@@ -7031,11 +6943,11 @@ hr {
   .boxsc1, .boxsc2, .boxsc3, .boxsc4, .boxsc5, .boxsc6 {
     color:#191919;
     text-align: center;
-    padding: 10px;
-    font-size: 13px;
+    padding: 8px;
+    font-size: 14px;
     background-color: white;
     font-family:  Sinhala Mn;
-    width: 200px;
+    width: 215px;
     height: 35px;
     border-radius: 5px;
     position: relative;
@@ -7095,7 +7007,7 @@ hr {
   
   .news2 {
     color: #191919;
-    font-size: 12px;
+    font-size: 14px;
     font-family: Montserrat;
   }
   
@@ -7117,11 +7029,11 @@ hr {
     font-size: 14px;
     background-color: white;
     font-family:  Sinhala Mn;
-    width: 300px;
+    width: 320px;
     height: 50px;
     border-radius: 5px;
     position: relative;
-    left: 5%;
+    left: 4%;
     bottom: 30%;
   }
   
@@ -7142,7 +7054,7 @@ hr {
   .date {
     color: #191919;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
     position: relative;
     left: 8%;
     bottom: 35%;
@@ -7152,7 +7064,7 @@ hr {
     color: #191919;
     text-decoration: underline;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
     position: relative;
     left: 70%;
     bottom: 39%;
@@ -7179,7 +7091,7 @@ hr {
     border-width: 1px;
     border-style: solid;
     border-color: #042482;
-    font-size: 13px;
+    font-size: 14px;
     font-family:  Mulish;
     padding: 8px 17px 8px 17px;
     color: #042482;
@@ -7190,6 +7102,8 @@ hr {
     color: white;
     background-color: #042482;
   }
+
+
   
   .container04 {
     display: flex;
@@ -7199,7 +7113,7 @@ hr {
     background-image: url(img/Path\ 4696\ 2.svg);
     background-size: 450px;
     background-repeat:no-repeat;
-    background-position: 800px;
+    background-position: 850px;
     align-items: center;
     justify-items: center;
   }
@@ -7222,7 +7136,7 @@ hr {
   .voice {
     color: #042482;
     font-family: Montserrat;
-    font-size: 10px;
+    font-size: 14px;
     letter-spacing: 1.5px;
     text-align: center;
     margin-bottom: 10px;
@@ -7239,18 +7153,18 @@ hr {
   .impressive {
     color: #191919;
     font-family: Montserrat;
-    font-size: 10px;
+    font-size: 14px;
     letter-spacing: 1.5px;
-    width: 70%;
+    width: 100%;
     text-align: center;
   }
   
   .impressive1 {
     color: #191919;
     font-family: Montserrat;
-    font-size: 10px;
+    font-size: 14px;
     letter-spacing: 1.5px;
-    width: 70%;
+    width: 100%;
     text-align: center;
     margin-bottom: 30px;
   }
@@ -7309,211 +7223,76 @@ hr {
     background-image: url(img/Path\ 4695.svg);
     background-repeat: no-repeat;
     background-size: 800px;
-    background-position-y: 600px;
+    background-position-y: 10px;
     background-position-x: -400px;
     align-items: center;
     justify-content: center;
   }
   
   .word04 {
-    margin-bottom: 30px;
-    align-self: flex-start;
-    justify-self: left;
+    display: none;
   }
   
-  .explore {
-    color: #042482;
-    font-family: Montserrat;
-    font-size: 12px;
-    letter-spacing: 1.5px;
-    text-align: left;
-    margin-bottom: 10px;
-  }
-  
-  .explore1 {
-    color: #191919;
-    font-family: Sinhala Mn;
-    font-size: 24px;
-    letter-spacing: 1.5px;
-    text-align: left;
-  }
   
   .image-container3  {
-    width: 100%;
-    display: flex;
+    display: none;
   }
-  
-  .image-container3-img, .image-container4-img {
-    position: relative;
-  }
+
   
   .img19 {
-    display: block;
-    width: 103%;
-    height: 22rem;
-    aspect-ratio: auto;
-    border-top-left-radius: 5px;
-    object-fit: cover;
-    object-position: center;
-    transition: 200ms ease-in-out;
+    display: none;
   }
   
   .img20 {
-    display: block;
-    width: 102%;
-    height: 22rem;
-    aspect-ratio: auto;
-    object-fit: cover;
-    object-position: center;
-    transition: 200ms ease-in-out;
+    display: none;
   }
   
   .img21 {
-    display: block;
-    width: 97.5%;
-    height: 22rem;
-    aspect-ratio: auto;
-    border-top-left-radius: 5px;
-    object-fit: cover;
-    object-position: center;
-    transition: 200ms ease-in-out;
+    display: none;
   }
+
   
-  .img19:hover {
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-  }
-  
-  .img20:hover {
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-  }
-  
-  .img21:hover {
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-  }
   
   .zoom-1 {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    inset: 0;
-    margin: auto;
-    opacity: 0;
-    transition: 200ms ease-in-out;
-    align-items: center;
+    display: none;
   }
-  
-  .image-container3-img:hover > .zoom-1 {
-    opacity: 1;
-  }
+
   
   .image-container4 {
-    width: 100%;
-    display: flex;
-    margin-top: -14px;
+    display: none;
   }
   
   .img22  {
-    display: block;
-    width: 102%;
-    height: 16.52rem;
-    aspect-ratio: auto;
-    border-bottom-left-radius: 5px;
-    object-fit: cover;
-    object-position: center;
-    transition: 200ms ease-in-out;
+    display: none;
   }
+
   
   .img23 {
-    display: block;
-    width: 102%;
-    height: 15.8rem;
-    aspect-ratio: auto;
-    object-fit: cover;
-    object-position: center;
-    transition: 200ms ease-in-out;
-    margin-top: 4px;
+    display: none;
   }
   
   .img24 {
-    display: block;
-    width: 102%;
-    height: 16.52rem;
-    aspect-ratio: auto;
-    object-fit: cover;
-    object-position: center;
-    transition: 200ms ease-in-out;
+    display: none;
   }
   
   .img25 {
-    display: block;
-    width: 97%;
-    height: 16.52rem;
-    aspect-ratio: auto;
-    border-bottom-left-radius: 5px;
-    object-fit: cover;
-    object-position: center;
-    transition: 200ms ease-in-out;
+    display: none;
   }
-  
-  
-  .img22:hover {
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-  }
-  
-  .img23:hover {
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-  }
-  
-  .img24:hover {
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-  }
-  
-  .img25:hover {
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
-  }
-  
-  .image-container4-img:hover > .zoom-1 {
-    opacity: 1;
-  }
-  
-  
-  
+
+
   .button04 {
-    width: 140px;
-    height: 40px;
-    border-radius: 50px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #042482;
-    font-size: 16px;
-    font-family:  Mulish;
-    padding: 8px 17px 8px 17px;
-    color: #042482;
-    text-align: center;
-    margin-top: 30px;
+    display: none;
   }
   
-  .button04:hover {
-    color: white;
-    background-color: #042482;
-  }
   
   .word05 {
     margin-bottom: 30px;
-    margin-top: 100px;
   }
   
   .explore2 {
     color: #042482;
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1.5px;
     text-align: center;
     margin-bottom: 10px;
@@ -7599,7 +7378,7 @@ hr {
     color: #042482;
     font-family: Mulish;
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 350;
     margin-top: 30px;
     line-height: 20px;
@@ -7615,7 +7394,7 @@ hr {
   .in {
     color: #042482;
     font-family: Sinhala Mn;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     margin-bottom: 10px;
   }
@@ -7623,7 +7402,7 @@ hr {
   .phone {
     color: #042482;
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     margin-bottom: 20px;
   
@@ -7632,7 +7411,7 @@ hr {
   .email {
     color: #042482;
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     margin-bottom: 20px;
   
@@ -7641,7 +7420,7 @@ hr {
   .address {
     color: #042482;
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     margin-bottom: 50px;
   }
@@ -7649,7 +7428,7 @@ hr {
   .junior, .senior, .enquire5, .apply1 {
     color: #042482;
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     margin-bottom: 5px;
   }
@@ -7664,7 +7443,7 @@ hr {
   .share {
     color: #042482;
     font-family: Sinhala Mn;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -7706,7 +7485,7 @@ hr {
   .car {
     color: #042482;
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     width: 100%;
     text-align: center;
@@ -7715,7 +7494,7 @@ hr {
   .privacy {
     color: #042482;
     font-family: Mulish;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
     width: 100%;
     text-align: center;
